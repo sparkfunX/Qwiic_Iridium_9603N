@@ -1,4 +1,4 @@
-# Qwiic_Iridium_9603N: LEARN
+# Qwiic Iridium 9603N : LEARN
 
 ![Qwiic Iridium 9603N (SPX-16394)](https://cdn.sparkfun.com//assets/parts/1/5/1/2/0/16394-Qwiic_Iridium_9603N-02a.jpg)
 
@@ -124,7 +124,7 @@ so you can develop your own Wire functions should you want to.
 ## I2C (Wire) Interface
 
 The Qwiic Iridium 9603N emulates a slave I2C device with a fixed address of 0x63. You can change the address but only by editing the
-[Arduino firmware](Firmware/Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino#L90).
+[Arduino firmware](Firmware/Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino#L102).
 
 The code in the ATtiny841 emulates three read/write 'registers':
 
@@ -257,7 +257,7 @@ to the Master even if new serial data from the 9603N arrives part way through.
 
 ## ATTinyCore
 
-The [Firmware folder](tree/master/Firmware) contains the code for the ATtiny841.
+The [Firmware folder](../../tree/master/Firmware) contains the code for the ATtiny841.
 
 The Qwiic Iridium 9603N relies upon Spence Konde's [ATTinyCore](https://github.com/SpenceKonde/ATTinyCore) to provide support for the ATtiny841.
 
