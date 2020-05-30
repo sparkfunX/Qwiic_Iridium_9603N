@@ -1,0 +1,3357 @@
+
+C:\Users\pclark\AppData\Local\Temp\arduino_build_393599/Qwiic_Iridium_9603N_ATtiny841.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+__vectors():
+   0:	24 c0       	rjmp	.+72     	; 0x4a <__ctors_end>
+   2:	c1 c3       	rjmp	.+1922   	; 0x786 <__vector_1>
+   4:	47 c0       	rjmp	.+142    	; 0x94 <__bad_interrupt>
+   6:	46 c0       	rjmp	.+140    	; 0x94 <__bad_interrupt>
+   8:	45 c0       	rjmp	.+138    	; 0x94 <__bad_interrupt>
+   a:	44 c0       	rjmp	.+136    	; 0x94 <__bad_interrupt>
+   c:	43 c0       	rjmp	.+134    	; 0x94 <__bad_interrupt>
+   e:	42 c0       	rjmp	.+132    	; 0x94 <__bad_interrupt>
+  10:	41 c0       	rjmp	.+130    	; 0x94 <__bad_interrupt>
+  12:	40 c0       	rjmp	.+128    	; 0x94 <__bad_interrupt>
+  14:	3f c0       	rjmp	.+126    	; 0x94 <__bad_interrupt>
+  16:	6d c3       	rjmp	.+1754   	; 0x6f2 <__vector_11>
+  18:	3d c0       	rjmp	.+122    	; 0x94 <__bad_interrupt>
+  1a:	3c c0       	rjmp	.+120    	; 0x94 <__bad_interrupt>
+  1c:	3b c0       	rjmp	.+118    	; 0x94 <__bad_interrupt>
+  1e:	3a c0       	rjmp	.+116    	; 0x94 <__bad_interrupt>
+  20:	39 c0       	rjmp	.+114    	; 0x94 <__bad_interrupt>
+  22:	38 c0       	rjmp	.+112    	; 0x94 <__bad_interrupt>
+  24:	37 c0       	rjmp	.+110    	; 0x94 <__bad_interrupt>
+  26:	36 c0       	rjmp	.+108    	; 0x94 <__bad_interrupt>
+  28:	35 c0       	rjmp	.+106    	; 0x94 <__bad_interrupt>
+  2a:	34 c0       	rjmp	.+104    	; 0x94 <__bad_interrupt>
+  2c:	0e c4       	rjmp	.+2076   	; 0x84a <__vector_22>
+  2e:	32 c0       	rjmp	.+100    	; 0x94 <__bad_interrupt>
+  30:	31 c0       	rjmp	.+98     	; 0x94 <__bad_interrupt>
+  32:	30 c0       	rjmp	.+96     	; 0x94 <__bad_interrupt>
+  34:	d5 c3       	rjmp	.+1962   	; 0x7e0 <__vector_26>
+  36:	2e c0       	rjmp	.+92     	; 0x94 <__bad_interrupt>
+  38:	2d c0       	rjmp	.+90     	; 0x94 <__bad_interrupt>
+  3a:	3c c4       	rjmp	.+2168   	; 0x8b4 <__vector_29>
+
+0000003c <__trampolines_end>:
+__trampolines_start():
+  3c:	01 02       	muls	r16, r17
+  3e:	04 08       	sbc	r0, r4
+  40:	10 20       	and	r1, r0
+  42:	40 80       	ld	r4, Z
+  44:	04 02       	muls	r16, r20
+  46:	01 08       	sbc	r0, r1
+
+00000048 <__ctors_start>:
+__ctors_start():
+  48:	69 05       	cpc	r22, r9
+
+0000004a <__ctors_end>:
+__dtors_end():
+  4a:	11 24       	eor	r1, r1
+  4c:	1f be       	out	0x3f, r1	; 63
+  4e:	cf ef       	ldi	r28, 0xFF	; 255
+  50:	d2 e0       	ldi	r29, 0x02	; 2
+  52:	de bf       	out	0x3e, r29	; 62
+  54:	cd bf       	out	0x3d, r28	; 61
+
+00000056 <__do_copy_data>:
+__do_copy_data():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2409
+  56:	11 e0       	ldi	r17, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2410
+  58:	a0 e0       	ldi	r26, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2411
+  5a:	b1 e0       	ldi	r27, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2412
+  5c:	ec ed       	ldi	r30, 0xDC	; 220
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2413
+  5e:	fd e0       	ldi	r31, 0x0D	; 13
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2414
+  60:	02 c0       	rjmp	.+4      	; 0x66 <__do_copy_data+0x10>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2417
+  62:	05 90       	lpm	r0, Z+
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2422
+  64:	0d 92       	st	X+, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2424
+  66:	a0 32       	cpi	r26, 0x20	; 32
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2425
+  68:	b1 07       	cpc	r27, r17
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2426
+  6a:	d9 f7       	brne	.-10     	; 0x62 <__do_copy_data+0xc>
+
+0000006c <__do_clear_bss>:
+__do_clear_bss():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+  6c:	21 e0       	ldi	r18, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+  6e:	a0 e2       	ldi	r26, 0x20	; 32
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+  70:	b1 e0       	ldi	r27, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+  72:	01 c0       	rjmp	.+2      	; 0x76 <.do_clear_bss_start>
+
+00000074 <.do_clear_bss_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+  74:	1d 92       	st	X+, r1
+
+00000076 <.do_clear_bss_start>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+  76:	ae 3d       	cpi	r26, 0xDE	; 222
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+  78:	b2 07       	cpc	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+  7a:	e1 f7       	brne	.-8      	; 0x74 <.do_clear_bss_loop>
+
+0000007c <__do_global_ctors>:
+__do_global_ctors():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2466
+  7c:	10 e0       	ldi	r17, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2467
+  7e:	c5 e2       	ldi	r28, 0x25	; 37
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2468
+  80:	d0 e0       	ldi	r29, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2472
+  82:	03 c0       	rjmp	.+6      	; 0x8a <__do_global_ctors+0xe>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2474
+  84:	21 97       	sbiw	r28, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2480
+  86:	fe 01       	movw	r30, r28
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2481
+  88:	a1 d6       	rcall	.+3394   	; 0xdcc <__tablejump2__>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2483
+  8a:	c4 32       	cpi	r28, 0x24	; 36
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2484
+  8c:	d1 07       	cpc	r29, r17
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2489
+  8e:	d1 f7       	brne	.-12     	; 0x84 <__do_global_ctors+0x8>
+  90:	69 d5       	rcall	.+2770   	; 0xb64 <main>
+  92:	a2 c6       	rjmp	.+3396   	; 0xdd8 <_exit>
+
+00000094 <__bad_interrupt>:
+__vector_28():
+  94:	b5 cf       	rjmp	.-150    	; 0x0 <__vectors>
+
+00000096 <digitalRead>:
+digitalRead():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:248
+#endif
+
+int digitalRead(uint8_t pin)
+{
+  if (pin&128) {pin=analogInputToDigitalPin((pin&127));}
+  uint8_t bit = digitalPinToBitMask(pin);
+  96:	e8 2f       	mov	r30, r24
+  98:	f0 e0       	ldi	r31, 0x00	; 0
+  9a:	e4 5c       	subi	r30, 0xC4	; 196
+  9c:	ff 4f       	sbci	r31, 0xFF	; 255
+  9e:	e4 91       	lpm	r30, Z
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:249
+  uint8_t port = digitalPinToPort(pin);
+  a0:	88 30       	cpi	r24, 0x08	; 8
+  a2:	68 f4       	brcc	.+26     	; 0xbe <digitalRead+0x28>
+turnOffPWM():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:123
+// each digitalread or write.
+//
+__attribute__((always_inline)) static inline void turnOffPWM( uint8_t pin )
+{
+  #if CORE_PWM_COUNT >= 1
+    if ( pin == CORE_PWM0_PIN )
+  a4:	84 30       	cpi	r24, 0x04	; 4
+  a6:	31 f4       	brne	.+12     	; 0xb4 <digitalRead+0x1e>
+Timer0_SetCompareOutputModeA():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:155
+}
+timer0_com_t;
+
+__attribute__((always_inline)) static inline void Timer0_SetCompareOutputModeA( timer0_com_t com )
+{
+  TCCR0A = (TCCR0A & ~MASK2(COM0A1,COM0A0)) | (com << COM0A0);
+  a8:	80 b7       	in	r24, 0x30	; 48
+  aa:	8f 73       	andi	r24, 0x3F	; 63
+Timer0_SetCompareOutputModeB():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:161
+}
+
+__attribute__((always_inline)) static inline void Timer0_SetCompareOutputModeB( timer0_com_t com )
+{
+
+  TCCR0A = (TCCR0A & ~MASK2(COM0B1,COM0B0)) | (com << COM0B0);
+  ac:	80 bf       	out	0x30, r24	; 48
+digitalRead():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:257
+
+  // If the pin that support PWM output, we need to turn it off
+  // before getting a digital reading.
+  turnOffPWM( pin );
+
+  if (*portInputRegister(port) & bit) return HIGH;
+  ae:	a9 e3       	ldi	r26, 0x39	; 57
+  b0:	b0 e0       	ldi	r27, 0x00	; 0
+  b2:	0f c0       	rjmp	.+30     	; 0xd2 <digitalRead+0x3c>
+turnOffPWM():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:131
+    }
+    else
+  #endif
+
+  #if CORE_PWM_COUNT >= 2
+    if ( pin == CORE_PWM1_PIN )
+  b4:	85 30       	cpi	r24, 0x05	; 5
+  b6:	a9 f4       	brne	.+42     	; 0xe2 <digitalRead+0x4c>
+Timer0_SetCompareOutputModeB():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:161
+  b8:	80 b7       	in	r24, 0x30	; 48
+  ba:	8f 7c       	andi	r24, 0xCF	; 207
+  bc:	f7 cf       	rjmp	.-18     	; 0xac <digitalRead+0x16>
+digitalRead():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:249
+
+int digitalRead(uint8_t pin)
+{
+  if (pin&128) {pin=analogInputToDigitalPin((pin&127));}
+  uint8_t bit = digitalPinToBitMask(pin);
+  uint8_t port = digitalPinToPort(pin);
+  be:	92 e0       	ldi	r25, 0x02	; 2
+turnOffPWM():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:139
+    }
+    else
+  #endif
+
+  #if CORE_PWM_COUNT >= 3
+    if ( pin == CORE_PWM2_PIN )
+  c0:	86 30       	cpi	r24, 0x06	; 6
+  c2:	89 f4       	brne	.+34     	; 0xe6 <digitalRead+0x50>
+Timer1_SetCompareOutputModeA():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:323
+}
+timer1_com_t;
+
+__attribute__((always_inline)) static inline void Timer1_SetCompareOutputModeA( timer1_com_t com )
+{
+  TCCR1A = (TCCR1A & ~MASK2(COM1A1,COM1A0)) | (com << COM1A0);
+  c4:	8f b5       	in	r24, 0x2f	; 47
+  c6:	8f 73       	andi	r24, 0x3F	; 63
+Timer1_SetCompareOutputModeB():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:328
+}
+
+__attribute__((always_inline)) static inline void Timer1_SetCompareOutputModeB( timer1_com_t com )
+{
+  TCCR1A = (TCCR1A & ~MASK2(COM1B1,COM1B0)) | (com << COM1B0);
+  c8:	8f bd       	out	0x2f, r24	; 47
+digitalRead():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:257
+
+  // If the pin that support PWM output, we need to turn it off
+  // before getting a digital reading.
+  turnOffPWM( pin );
+
+  if (*portInputRegister(port) & bit) return HIGH;
+  ca:	a6 e3       	ldi	r26, 0x36	; 54
+  cc:	b0 e0       	ldi	r27, 0x00	; 0
+  ce:	91 30       	cpi	r25, 0x01	; 1
+  d0:	71 f3       	breq	.-36     	; 0xae <digitalRead+0x18>
+  d2:	8c 91       	ld	r24, X
+  d4:	e8 23       	and	r30, r24
+  d6:	81 e0       	ldi	r24, 0x01	; 1
+  d8:	90 e0       	ldi	r25, 0x00	; 0
+  da:	11 f4       	brne	.+4      	; 0xe0 <digitalRead+0x4a>
+  dc:	90 e0       	ldi	r25, 0x00	; 0
+  de:	80 e0       	ldi	r24, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:259
+  return LOW;
+}
+  e0:	08 95       	ret
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:249
+
+int digitalRead(uint8_t pin)
+{
+  if (pin&128) {pin=analogInputToDigitalPin((pin&127));}
+  uint8_t bit = digitalPinToBitMask(pin);
+  uint8_t port = digitalPinToPort(pin);
+  e2:	91 e0       	ldi	r25, 0x01	; 1
+  e4:	ed cf       	rjmp	.-38     	; 0xc0 <digitalRead+0x2a>
+turnOffPWM():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:147
+    }
+    else
+  #endif
+
+  #if CORE_PWM_COUNT >= 4
+    if ( pin == CORE_PWM3_PIN )
+  e6:	83 30       	cpi	r24, 0x03	; 3
+  e8:	19 f4       	brne	.+6      	; 0xf0 <digitalRead+0x5a>
+Timer1_SetCompareOutputModeB():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:328
+  ea:	8f b5       	in	r24, 0x2f	; 47
+  ec:	8f 7c       	andi	r24, 0xCF	; 207
+  ee:	ec cf       	rjmp	.-40     	; 0xc8 <digitalRead+0x32>
+turnOffPWM():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:155
+    }
+    else
+  #endif
+
+  #if CORE_PWM_COUNT >= 5
+    if ( pin == CORE_PWM4_PIN )
+  f0:	88 30       	cpi	r24, 0x08	; 8
+  f2:	31 f4       	brne	.+12     	; 0x100 <digitalRead+0x6a>
+Timer2_SetCompareOutputModeA():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:511
+}
+timer2_com_t;
+
+__attribute__((always_inline)) static inline void Timer2_SetCompareOutputModeA( timer2_com_t com )
+{
+  TCCR2A = (TCCR2A & ~MASK2(COM2A1,COM2A0)) | (com << COM2A0);
+  f4:	80 91 ca 00 	lds	r24, 0x00CA	; 0x8000ca <__EEPROM_REGION_LENGTH__+0x7f00ca>
+  f8:	8f 73       	andi	r24, 0x3F	; 63
+Timer2_SetCompareOutputModeB():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:516
+}
+
+__attribute__((always_inline)) static inline void Timer2_SetCompareOutputModeB( timer2_com_t com )
+{
+  TCCR2A = (TCCR2A & ~MASK2(COM2B1,COM2B0)) | (com << COM2B0);
+  fa:	80 93 ca 00 	sts	0x00CA, r24	; 0x8000ca <__EEPROM_REGION_LENGTH__+0x7f00ca>
+  fe:	e5 cf       	rjmp	.-54     	; 0xca <digitalRead+0x34>
+turnOffPWM():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:164
+    else
+  #endif
+
+  #if CORE_PWM_COUNT >= 6
+
+    if ( pin == CORE_PWM5_PIN )
+ 100:	87 30       	cpi	r24, 0x07	; 7
+ 102:	19 f7       	brne	.-58     	; 0xca <digitalRead+0x34>
+Timer2_SetCompareOutputModeB():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:516
+ 104:	80 91 ca 00 	lds	r24, 0x00CA	; 0x8000ca <__EEPROM_REGION_LENGTH__+0x7f00ca>
+ 108:	8f 7c       	andi	r24, 0xCF	; 207
+ 10a:	f7 cf       	rjmp	.-18     	; 0xfa <digitalRead+0x64>
+
+0000010c <digitalWrite>:
+digitalWrite():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:181
+}
+
+#if defined(__AVR_ATtinyX41__ ) || defined(__AVR_ATtiny1634__) || defined(__AVR_ATtiny828__)
+
+void digitalWrite(uint8_t pin, uint8_t val)
+{
+ 10c:	cf 93       	push	r28
+ 10e:	df 93       	push	r29
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:185
+  #ifndef __AVR_ATtiny828__
+  if (pin&64) {pin=analogInputToDigitalPin((pin&63));}
+  #endif
+  uint8_t bit = digitalPinToBitMask(pin);
+ 110:	e8 2f       	mov	r30, r24
+ 112:	f0 e0       	ldi	r31, 0x00	; 0
+ 114:	e4 5c       	subi	r30, 0xC4	; 196
+ 116:	ff 4f       	sbci	r31, 0xFF	; 255
+ 118:	e4 91       	lpm	r30, Z
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:186
+  uint8_t port = digitalPinToPort(pin);
+ 11a:	88 30       	cpi	r24, 0x08	; 8
+ 11c:	78 f4       	brcc	.+30     	; 0x13c <digitalWrite+0x30>
+turnOffPWM():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:147
+    }
+    else
+  #endif
+
+  #if CORE_PWM_COUNT >= 4
+    if ( pin == CORE_PWM3_PIN )
+ 11e:	83 30       	cpi	r24, 0x03	; 3
+ 120:	19 f4       	brne	.+6      	; 0x128 <digitalWrite+0x1c>
+Timer1_SetCompareOutputModeB():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:328
+  TCCR1A = (TCCR1A & ~MASK2(COM1A1,COM1A0)) | (com << COM1A0);
+}
+
+__attribute__((always_inline)) static inline void Timer1_SetCompareOutputModeB( timer1_com_t com )
+{
+  TCCR1A = (TCCR1A & ~MASK2(COM1B1,COM1B0)) | (com << COM1B0);
+ 122:	8f b5       	in	r24, 0x2f	; 47
+ 124:	8f 7c       	andi	r24, 0xCF	; 207
+ 126:	8f bd       	out	0x2f, r24	; 47
+digitalWrite():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:195
+
+  // If the pin that support PWM output, we need to turn it off
+  // before doing a digital write.
+  turnOffPWM( pin );
+
+  out = portOutputRegister(port);
+ 128:	cb e3       	ldi	r28, 0x3B	; 59
+ 12a:	d0 e0       	ldi	r29, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:196
+  pue = portPullupRegister(port);
+ 12c:	a3 e6       	ldi	r26, 0x63	; 99
+ 12e:	b0 e0       	ldi	r27, 0x00	; 0
+ 130:	10 c0       	rjmp	.+32     	; 0x152 <digitalWrite+0x46>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:206
+    *out &= ~bit;
+    *pue &= ~bit; //Turn off the pullups
+    SREG = oldSREG;
+  } else {
+    uint8_t oldSREG = SREG;
+    cli();
+ 132:	f8 94       	cli
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:207
+    *out |= bit;
+ 134:	88 81       	ld	r24, Y
+ 136:	e8 2b       	or	r30, r24
+ 138:	e8 83       	st	Y, r30
+ 13a:	14 c0       	rjmp	.+40     	; 0x164 <digitalWrite+0x58>
+turnOffPWM():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:155
+    }
+    else
+  #endif
+
+  #if CORE_PWM_COUNT >= 5
+    if ( pin == CORE_PWM4_PIN )
+ 13c:	88 30       	cpi	r24, 0x08	; 8
+ 13e:	29 f4       	brne	.+10     	; 0x14a <digitalWrite+0x3e>
+Timer2_SetCompareOutputModeA():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:511
+}
+timer2_com_t;
+
+__attribute__((always_inline)) static inline void Timer2_SetCompareOutputModeA( timer2_com_t com )
+{
+  TCCR2A = (TCCR2A & ~MASK2(COM2A1,COM2A0)) | (com << COM2A0);
+ 140:	80 91 ca 00 	lds	r24, 0x00CA	; 0x8000ca <__EEPROM_REGION_LENGTH__+0x7f00ca>
+ 144:	8f 73       	andi	r24, 0x3F	; 63
+ 146:	80 93 ca 00 	sts	0x00CA, r24	; 0x8000ca <__EEPROM_REGION_LENGTH__+0x7f00ca>
+digitalWrite():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:195
+
+  // If the pin that support PWM output, we need to turn it off
+  // before doing a digital write.
+  turnOffPWM( pin );
+
+  out = portOutputRegister(port);
+ 14a:	c8 e3       	ldi	r28, 0x38	; 56
+ 14c:	d0 e0       	ldi	r29, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:196
+  pue = portPullupRegister(port);
+ 14e:	a2 e6       	ldi	r26, 0x62	; 98
+ 150:	b0 e0       	ldi	r27, 0x00	; 0
+ 152:	9e 2f       	mov	r25, r30
+ 154:	90 95       	com	r25
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:199
+
+  if (val == LOW) {
+    uint8_t oldSREG = SREG;
+ 156:	2f b7       	in	r18, 0x3f	; 63
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:198
+  turnOffPWM( pin );
+
+  out = portOutputRegister(port);
+  pue = portPullupRegister(port);
+
+  if (val == LOW) {
+ 158:	61 11       	cpse	r22, r1
+ 15a:	eb cf       	rjmp	.-42     	; 0x132 <digitalWrite+0x26>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:200
+    uint8_t oldSREG = SREG;
+    cli();
+ 15c:	f8 94       	cli
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:201
+    *out &= ~bit;
+ 15e:	88 81       	ld	r24, Y
+ 160:	89 23       	and	r24, r25
+ 162:	88 83       	st	Y, r24
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:208
+    SREG = oldSREG;
+  } else {
+    uint8_t oldSREG = SREG;
+    cli();
+    *out |= bit;
+    *pue &= ~bit;
+ 164:	8c 91       	ld	r24, X
+ 166:	89 23       	and	r24, r25
+ 168:	8c 93       	st	X, r24
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:209
+    SREG = oldSREG;
+ 16a:	2f bf       	out	0x3f, r18	; 63
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:211
+  }
+}
+ 16c:	df 91       	pop	r29
+ 16e:	cf 91       	pop	r28
+ 170:	08 95       	ret
+
+00000172 <pinMode>:
+pinMode():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:37
+#include "core_timers.h"
+#include "PwmTimer.h"
+
+#if defined(__AVR_ATtinyX41__ ) || defined(__AVR_ATtiny1634__) || defined(__AVR_ATtiny828__)
+void pinMode(uint8_t pin, uint8_t mode)
+{
+ 172:	cf 93       	push	r28
+ 174:	df 93       	push	r29
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:41
+  #ifndef __AVR_ATtiny828__
+  if (pin&64) {pin=analogInputToDigitalPin((pin & 63));}
+  #endif
+  uint8_t bit = digitalPinToBitMask(pin);
+ 176:	e8 2f       	mov	r30, r24
+ 178:	f0 e0       	ldi	r31, 0x00	; 0
+ 17a:	e4 5c       	subi	r30, 0xC4	; 196
+ 17c:	ff 4f       	sbci	r31, 0xFF	; 255
+ 17e:	e4 91       	lpm	r30, Z
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:49
+
+  if (port == NOT_A_PIN) return;
+
+  // JWS: can I let the optimizer do this?
+  reg = portModeRegister(port);
+  out = portOutputRegister(port);
+ 180:	28 e3       	ldi	r18, 0x38	; 56
+ 182:	30 e0       	ldi	r19, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:48
+  volatile uint8_t *reg, *out, *pue;
+
+  if (port == NOT_A_PIN) return;
+
+  // JWS: can I let the optimizer do this?
+  reg = portModeRegister(port);
+ 184:	a7 e3       	ldi	r26, 0x37	; 55
+ 186:	b0 e0       	ldi	r27, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:50
+  out = portOutputRegister(port);
+  pue = portPullupRegister(port);
+ 188:	c2 e6       	ldi	r28, 0x62	; 98
+ 18a:	d0 e0       	ldi	r29, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:42
+{
+  #ifndef __AVR_ATtiny828__
+  if (pin&64) {pin=analogInputToDigitalPin((pin & 63));}
+  #endif
+  uint8_t bit = digitalPinToBitMask(pin);
+  uint8_t port = digitalPinToPort(pin);
+ 18c:	88 30       	cpi	r24, 0x08	; 8
+ 18e:	30 f4       	brcc	.+12     	; 0x19c <pinMode+0x2a>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:49
+
+  if (port == NOT_A_PIN) return;
+
+  // JWS: can I let the optimizer do this?
+  reg = portModeRegister(port);
+  out = portOutputRegister(port);
+ 190:	2b e3       	ldi	r18, 0x3B	; 59
+ 192:	30 e0       	ldi	r19, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:48
+  volatile uint8_t *reg, *out, *pue;
+
+  if (port == NOT_A_PIN) return;
+
+  // JWS: can I let the optimizer do this?
+  reg = portModeRegister(port);
+ 194:	aa e3       	ldi	r26, 0x3A	; 58
+ 196:	b0 e0       	ldi	r27, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:50
+  out = portOutputRegister(port);
+  pue = portPullupRegister(port);
+ 198:	c3 e6       	ldi	r28, 0x63	; 99
+ 19a:	d0 e0       	ldi	r29, 0x00	; 0
+ 19c:	8e 2f       	mov	r24, r30
+ 19e:	80 95       	com	r24
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:52
+
+  if (mode == INPUT) {
+ 1a0:	61 11       	cpse	r22, r1
+ 1a2:	10 c0       	rjmp	.+32     	; 0x1c4 <pinMode+0x52>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:53
+    uint8_t oldSREG = SREG;
+ 1a4:	4f b7       	in	r20, 0x3f	; 63
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:54
+                cli();
+ 1a6:	f8 94       	cli
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:55
+    *reg &= ~bit;
+ 1a8:	9c 91       	ld	r25, X
+ 1aa:	98 23       	and	r25, r24
+ 1ac:	9c 93       	st	X, r25
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:56
+    *out &= ~bit;
+ 1ae:	f9 01       	movw	r30, r18
+ 1b0:	90 81       	ld	r25, Z
+ 1b2:	98 23       	and	r25, r24
+ 1b4:	90 83       	st	Z, r25
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:57
+    *pue &= ~bit;
+ 1b6:	98 81       	ld	r25, Y
+ 1b8:	89 23       	and	r24, r25
+ 1ba:	88 83       	st	Y, r24
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:58
+    SREG = oldSREG;
+ 1bc:	4f bf       	out	0x3f, r20	; 63
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:73
+                cli();
+    *pue &= ~bit;
+    *reg |= bit;
+    SREG = oldSREG;
+  }
+}
+ 1be:	df 91       	pop	r29
+ 1c0:	cf 91       	pop	r28
+ 1c2:	08 95       	ret
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:67
+    *reg &= ~bit;
+    *out |= bit;
+    *pue |= bit;
+    SREG = oldSREG;
+  } else {
+    uint8_t oldSREG = SREG;
+ 1c4:	2f b7       	in	r18, 0x3f	; 63
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:68
+                cli();
+ 1c6:	f8 94       	cli
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:69
+    *pue &= ~bit;
+ 1c8:	98 81       	ld	r25, Y
+ 1ca:	89 23       	and	r24, r25
+ 1cc:	88 83       	st	Y, r24
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:70
+    *reg |= bit;
+ 1ce:	8c 91       	ld	r24, X
+ 1d0:	e8 2b       	or	r30, r24
+ 1d2:	ec 93       	st	X, r30
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring_digital.c:71
+    SREG = oldSREG;
+ 1d4:	2f bf       	out	0x3f, r18	; 63
+ 1d6:	f3 cf       	rjmp	.-26     	; 0x1be <pinMode+0x4c>
+
+000001d8 <millis>:
+millis():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:117
+}
+
+unsigned long millis()
+{
+  unsigned long m;
+  uint8_t oldSREG = SREG;
+ 1d8:	2f b7       	in	r18, 0x3f	; 63
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:121
+
+  // disable interrupts while we read millis_timer_millis or we might get an
+  // inconsistent value (e.g. in the middle of a write to millis_timer_millis)
+  cli();
+ 1da:	f8 94       	cli
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:122
+  m = millis_timer_millis;
+ 1dc:	60 91 31 01 	lds	r22, 0x0131	; 0x800131 <millis_timer_millis>
+ 1e0:	70 91 32 01 	lds	r23, 0x0132	; 0x800132 <millis_timer_millis+0x1>
+ 1e4:	80 91 33 01 	lds	r24, 0x0133	; 0x800133 <millis_timer_millis+0x2>
+ 1e8:	90 91 34 01 	lds	r25, 0x0134	; 0x800134 <millis_timer_millis+0x3>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:123
+  SREG = oldSREG;
+ 1ec:	2f bf       	out	0x3f, r18	; 63
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:126
+
+  return m;
+}
+ 1ee:	08 95       	ret
+
+000001f0 <int0ISR()>:
+int0ISR():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:160
+#define PGOOD__ON   HIGH // LTC3225 Power Good - goes high when the supercapacitors are charged (will also be high when !SHDN is low!)
+#define PGOOD__OFF  LOW
+
+//INT0 Interrupt Service Routine
+//Called on the FALLING edge of the RI pin
+void int0ISR() { RI_FLAG = true; } // Set RI_FLAG to true
+ 1f0:	81 e0       	ldi	r24, 0x01	; 1
+ 1f2:	80 93 22 01 	sts	0x0122, r24	; 0x800122 <RI_FLAG>
+ 1f6:	08 95       	ret
+
+000001f8 <Print::write(unsigned char const*, unsigned int)>:
+write():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/Print.cpp:34
+
+// Public Methods //////////////////////////////////////////////////////////////
+
+/* default implementation: may be overridden */
+size_t Print::write(const uint8_t *buffer, size_t size)
+{
+ 1f8:	cf 92       	push	r12
+ 1fa:	df 92       	push	r13
+ 1fc:	ef 92       	push	r14
+ 1fe:	ff 92       	push	r15
+ 200:	0f 93       	push	r16
+ 202:	1f 93       	push	r17
+ 204:	cf 93       	push	r28
+ 206:	df 93       	push	r29
+ 208:	6c 01       	movw	r12, r24
+ 20a:	eb 01       	movw	r28, r22
+ 20c:	7b 01       	movw	r14, r22
+ 20e:	e4 0e       	add	r14, r20
+ 210:	f5 1e       	adc	r15, r21
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/Print.cpp:35
+  size_t n = 0;
+ 212:	10 e0       	ldi	r17, 0x00	; 0
+ 214:	00 e0       	ldi	r16, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/Print.cpp:36
+  while (size--) {
+ 216:	ce 15       	cp	r28, r14
+ 218:	df 05       	cpc	r29, r15
+ 21a:	61 f0       	breq	.+24     	; 0x234 <Print::write(unsigned char const*, unsigned int)+0x3c>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/Print.cpp:37
+    n += write(*buffer++);
+ 21c:	69 91       	ld	r22, Y+
+ 21e:	d6 01       	movw	r26, r12
+ 220:	ed 91       	ld	r30, X+
+ 222:	fc 91       	ld	r31, X
+ 224:	01 90       	ld	r0, Z+
+ 226:	f0 81       	ld	r31, Z
+ 228:	e0 2d       	mov	r30, r0
+ 22a:	c6 01       	movw	r24, r12
+ 22c:	09 95       	icall
+ 22e:	08 0f       	add	r16, r24
+ 230:	19 1f       	adc	r17, r25
+ 232:	f1 cf       	rjmp	.-30     	; 0x216 <Print::write(unsigned char const*, unsigned int)+0x1e>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/Print.cpp:40
+  }
+  return n;
+}
+ 234:	c8 01       	movw	r24, r16
+ 236:	df 91       	pop	r29
+ 238:	cf 91       	pop	r28
+ 23a:	1f 91       	pop	r17
+ 23c:	0f 91       	pop	r16
+ 23e:	ff 90       	pop	r15
+ 240:	ef 90       	pop	r14
+ 242:	df 90       	pop	r13
+ 244:	cf 90       	pop	r12
+ 246:	08 95       	ret
+
+00000248 <HardwareSerial::write(unsigned char)>:
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:272
+  // were full, not empty.
+  _rx_buffer->head = _rx_buffer->tail;
+}
+
+size_t HardwareSerial::write(uint8_t c)
+{
+ 248:	fc 01       	movw	r30, r24
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:273
+  while (!((*_ucsra) & (1 << _udre)))
+ 24a:	a2 89       	ldd	r26, Z+18	; 0x12
+ 24c:	b3 89       	ldd	r27, Z+19	; 0x13
+ 24e:	25 8d       	ldd	r18, Z+29	; 0x1d
+ 250:	81 e0       	ldi	r24, 0x01	; 1
+ 252:	90 e0       	ldi	r25, 0x00	; 0
+ 254:	02 c0       	rjmp	.+4      	; 0x25a <HardwareSerial::write(unsigned char)+0x12>
+ 256:	88 0f       	add	r24, r24
+ 258:	99 1f       	adc	r25, r25
+ 25a:	2a 95       	dec	r18
+ 25c:	e2 f7       	brpl	.-8      	; 0x256 <HardwareSerial::write(unsigned char)+0xe>
+ 25e:	2c 91       	ld	r18, X
+ 260:	30 e0       	ldi	r19, 0x00	; 0
+ 262:	28 23       	and	r18, r24
+ 264:	39 23       	and	r19, r25
+ 266:	23 2b       	or	r18, r19
+ 268:	d1 f3       	breq	.-12     	; 0x25e <HardwareSerial::write(unsigned char)+0x16>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:276
+    ;
+
+  *_udr = c;
+ 26a:	06 88       	ldd	r0, Z+22	; 0x16
+ 26c:	f7 89       	ldd	r31, Z+23	; 0x17
+ 26e:	e0 2d       	mov	r30, r0
+ 270:	60 83       	st	Z, r22
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:279
+
+  return( 1 );
+}
+ 272:	81 e0       	ldi	r24, 0x01	; 1
+ 274:	90 e0       	ldi	r25, 0x00	; 0
+ 276:	08 95       	ret
+
+00000278 <HardwareSerial::flush()>:
+flush():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:268
+  // don't reverse this or there may be problems if the RX interrupt
+  // occurs after reading the value of rx_buffer_head but before writing
+  // the value to rx_buffer_tail; the previous value of rx_buffer_head
+  // may be written to rx_buffer_tail, making it appear as if the buffer
+  // were full, not empty.
+  _rx_buffer->head = _rx_buffer->tail;
+ 278:	dc 01       	movw	r26, r24
+ 27a:	1c 96       	adiw	r26, 0x0c	; 12
+ 27c:	ed 91       	ld	r30, X+
+ 27e:	fc 91       	ld	r31, X
+ 280:	82 a1       	ldd	r24, Z+34	; 0x22
+ 282:	93 a1       	ldd	r25, Z+35	; 0x23
+ 284:	91 a3       	std	Z+33, r25	; 0x21
+ 286:	80 a3       	std	Z+32, r24	; 0x20
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:269
+}
+ 288:	08 95       	ret
+
+0000028a <HardwareSerial::read()>:
+read():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:248
+}
+
+int HardwareSerial::read(void)
+{
+  // if the head isn't ahead of the tail, we don't have any characters
+  if (_rx_buffer->head == _rx_buffer->tail) {
+ 28a:	dc 01       	movw	r26, r24
+ 28c:	1c 96       	adiw	r26, 0x0c	; 12
+ 28e:	ed 91       	ld	r30, X+
+ 290:	fc 91       	ld	r31, X
+ 292:	22 a1       	ldd	r18, Z+34	; 0x22
+ 294:	33 a1       	ldd	r19, Z+35	; 0x23
+ 296:	80 a1       	ldd	r24, Z+32	; 0x20
+ 298:	91 a1       	ldd	r25, Z+33	; 0x21
+ 29a:	82 17       	cp	r24, r18
+ 29c:	93 07       	cpc	r25, r19
+ 29e:	61 f0       	breq	.+24     	; 0x2b8 <HardwareSerial::read()+0x2e>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:251
+    return -1;
+  } else {
+    unsigned char c = _rx_buffer->buffer[_rx_buffer->tail];
+ 2a0:	df 01       	movw	r26, r30
+ 2a2:	a2 0f       	add	r26, r18
+ 2a4:	b3 1f       	adc	r27, r19
+ 2a6:	8c 91       	ld	r24, X
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:252
+    _rx_buffer->tail = (unsigned int)(_rx_buffer->tail + 1) % RX_BUFFER_SIZE;
+ 2a8:	2f 5f       	subi	r18, 0xFF	; 255
+ 2aa:	3f 4f       	sbci	r19, 0xFF	; 255
+ 2ac:	2f 71       	andi	r18, 0x1F	; 31
+ 2ae:	33 27       	eor	r19, r19
+ 2b0:	33 a3       	std	Z+35, r19	; 0x23
+ 2b2:	22 a3       	std	Z+34, r18	; 0x22
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:253
+    return c;
+ 2b4:	90 e0       	ldi	r25, 0x00	; 0
+ 2b6:	08 95       	ret
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:249
+
+int HardwareSerial::read(void)
+{
+  // if the head isn't ahead of the tail, we don't have any characters
+  if (_rx_buffer->head == _rx_buffer->tail) {
+    return -1;
+ 2b8:	8f ef       	ldi	r24, 0xFF	; 255
+ 2ba:	9f ef       	ldi	r25, 0xFF	; 255
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:255
+  } else {
+    unsigned char c = _rx_buffer->buffer[_rx_buffer->tail];
+    _rx_buffer->tail = (unsigned int)(_rx_buffer->tail + 1) % RX_BUFFER_SIZE;
+    return c;
+  }
+}
+ 2bc:	08 95       	ret
+
+000002be <HardwareSerial::peek()>:
+peek():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:238
+  return (unsigned int)(RX_BUFFER_SIZE + _rx_buffer->head - _rx_buffer->tail) % RX_BUFFER_SIZE;
+}
+
+int HardwareSerial::peek(void)
+{
+  if (_rx_buffer->head == _rx_buffer->tail) {
+ 2be:	dc 01       	movw	r26, r24
+ 2c0:	1c 96       	adiw	r26, 0x0c	; 12
+ 2c2:	ed 91       	ld	r30, X+
+ 2c4:	fc 91       	ld	r31, X
+ 2c6:	82 a1       	ldd	r24, Z+34	; 0x22
+ 2c8:	93 a1       	ldd	r25, Z+35	; 0x23
+ 2ca:	20 a1       	ldd	r18, Z+32	; 0x20
+ 2cc:	31 a1       	ldd	r19, Z+33	; 0x21
+ 2ce:	28 17       	cp	r18, r24
+ 2d0:	39 07       	cpc	r19, r25
+ 2d2:	29 f0       	breq	.+10     	; 0x2de <HardwareSerial::peek()+0x20>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:241
+    return -1;
+  } else {
+    return _rx_buffer->buffer[_rx_buffer->tail];
+ 2d4:	e8 0f       	add	r30, r24
+ 2d6:	f9 1f       	adc	r31, r25
+ 2d8:	80 81       	ld	r24, Z
+ 2da:	90 e0       	ldi	r25, 0x00	; 0
+ 2dc:	08 95       	ret
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:239
+}
+
+int HardwareSerial::peek(void)
+{
+  if (_rx_buffer->head == _rx_buffer->tail) {
+    return -1;
+ 2de:	8f ef       	ldi	r24, 0xFF	; 255
+ 2e0:	9f ef       	ldi	r25, 0xFF	; 255
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:243
+  } else {
+    return _rx_buffer->buffer[_rx_buffer->tail];
+  }
+}
+ 2e2:	08 95       	ret
+
+000002e4 <HardwareSerial::available()>:
+available():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:233
+  cbi(*_ucsrb, _rxcie);
+}
+
+int HardwareSerial::available(void)
+{
+  return (unsigned int)(RX_BUFFER_SIZE + _rx_buffer->head - _rx_buffer->tail) % RX_BUFFER_SIZE;
+ 2e4:	dc 01       	movw	r26, r24
+ 2e6:	1c 96       	adiw	r26, 0x0c	; 12
+ 2e8:	ed 91       	ld	r30, X+
+ 2ea:	fc 91       	ld	r31, X
+ 2ec:	80 a1       	ldd	r24, Z+32	; 0x20
+ 2ee:	91 a1       	ldd	r25, Z+33	; 0x21
+ 2f0:	22 a1       	ldd	r18, Z+34	; 0x22
+ 2f2:	33 a1       	ldd	r19, Z+35	; 0x23
+ 2f4:	82 1b       	sub	r24, r18
+ 2f6:	93 0b       	sbc	r25, r19
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:234
+}
+ 2f8:	8f 71       	andi	r24, 0x1F	; 31
+ 2fa:	99 27       	eor	r25, r25
+ 2fc:	08 95       	ret
+
+000002fe <i2c_tinyS::write(unsigned char const*, unsigned int)>:
+write():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:73
+        return 1;
+    }
+    return 0;
+}
+
+size_t i2c_tinyS::write(const uint8_t* data, size_t quantity) {
+ 2fe:	cf 93       	push	r28
+ 300:	df 93       	push	r29
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:74
+    if(i2c->txBufferLength < I2C_BUFFER_LENGTH) {
+ 302:	dc 01       	movw	r26, r24
+ 304:	1c 96       	adiw	r26, 0x0c	; 12
+ 306:	ed 91       	ld	r30, X+
+ 308:	fc 91       	ld	r31, X
+ 30a:	26 a1       	ldd	r18, Z+38	; 0x26
+ 30c:	37 a1       	ldd	r19, Z+39	; 0x27
+ 30e:	20 32       	cpi	r18, 0x20	; 32
+ 310:	31 05       	cpc	r19, r1
+ 312:	10 f5       	brcc	.+68     	; 0x358 <__stack+0x59>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:75
+        size_t avail = I2C_BUFFER_LENGTH - i2c->txBufferLength;
+ 314:	a6 a1       	ldd	r26, Z+38	; 0x26
+ 316:	b7 a1       	ldd	r27, Z+39	; 0x27
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:76
+        uint8_t* dest = i2c->Buffer + i2c->txBufferLength;
+ 318:	c6 a1       	ldd	r28, Z+38	; 0x26
+ 31a:	d7 a1       	ldd	r29, Z+39	; 0x27
+ 31c:	20 e2       	ldi	r18, 0x20	; 32
+ 31e:	30 e0       	ldi	r19, 0x00	; 0
+ 320:	2a 1b       	sub	r18, r26
+ 322:	3b 0b       	sbc	r19, r27
+ 324:	42 17       	cp	r20, r18
+ 326:	53 07       	cpc	r21, r19
+ 328:	08 f4       	brcc	.+2      	; 0x32c <__stack+0x2d>
+ 32a:	9a 01       	movw	r18, r20
+ 32c:	db 01       	movw	r26, r22
+ 32e:	ec 0f       	add	r30, r28
+ 330:	fd 1f       	adc	r31, r29
+ 332:	b9 01       	movw	r22, r18
+ 334:	6e 0f       	add	r22, r30
+ 336:	7f 1f       	adc	r23, r31
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:78
+        if(quantity > avail) quantity = avail;
+        for (size_t count=quantity; count; count--) *dest++ = *data++;
+ 338:	e6 17       	cp	r30, r22
+ 33a:	f7 07       	cpc	r31, r23
+ 33c:	19 f0       	breq	.+6      	; 0x344 <__stack+0x45>
+ 33e:	4d 91       	ld	r20, X+
+ 340:	41 93       	st	Z+, r20
+ 342:	fa cf       	rjmp	.-12     	; 0x338 <__stack+0x39>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:79
+        i2c->txBufferLength += quantity;
+ 344:	dc 01       	movw	r26, r24
+ 346:	1c 96       	adiw	r26, 0x0c	; 12
+ 348:	ed 91       	ld	r30, X+
+ 34a:	fc 91       	ld	r31, X
+ 34c:	86 a1       	ldd	r24, Z+38	; 0x26
+ 34e:	97 a1       	ldd	r25, Z+39	; 0x27
+ 350:	28 0f       	add	r18, r24
+ 352:	39 1f       	adc	r19, r25
+ 354:	37 a3       	std	Z+39, r19	; 0x27
+ 356:	26 a3       	std	Z+38, r18	; 0x26
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:81
+    }
+}
+ 358:	df 91       	pop	r29
+ 35a:	cf 91       	pop	r28
+ 35c:	08 95       	ret
+
+0000035e <i2c_tinyS::write(unsigned char)>:
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:66
+    i2c->startCount = -1;
+    TWSCRA = (_BV(TWSHE) | _BV(TWDIE) | _BV(TWASIE) | _BV(TWEN) | _BV(TWSIE));
+}
+
+size_t i2c_tinyS::write(uint8_t data) {
+    if(i2c->txBufferLength < I2C_BUFFER_LENGTH) {
+ 35e:	dc 01       	movw	r26, r24
+ 360:	1c 96       	adiw	r26, 0x0c	; 12
+ 362:	ed 91       	ld	r30, X+
+ 364:	fc 91       	ld	r31, X
+ 366:	86 a1       	ldd	r24, Z+38	; 0x26
+ 368:	97 a1       	ldd	r25, Z+39	; 0x27
+ 36a:	80 97       	sbiw	r24, 0x20	; 32
+ 36c:	68 f4       	brcc	.+26     	; 0x388 <i2c_tinyS::write(unsigned char)+0x2a>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:67
+        i2c->Buffer[i2c->txBufferLength++] = data;
+ 36e:	86 a1       	ldd	r24, Z+38	; 0x26
+ 370:	97 a1       	ldd	r25, Z+39	; 0x27
+ 372:	9c 01       	movw	r18, r24
+ 374:	2f 5f       	subi	r18, 0xFF	; 255
+ 376:	3f 4f       	sbci	r19, 0xFF	; 255
+ 378:	37 a3       	std	Z+39, r19	; 0x27
+ 37a:	26 a3       	std	Z+38, r18	; 0x26
+ 37c:	e8 0f       	add	r30, r24
+ 37e:	f9 1f       	adc	r31, r25
+ 380:	60 83       	st	Z, r22
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:68
+        return 1;
+ 382:	81 e0       	ldi	r24, 0x01	; 1
+ 384:	90 e0       	ldi	r25, 0x00	; 0
+ 386:	08 95       	ret
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:70
+    }
+    return 0;
+ 388:	90 e0       	ldi	r25, 0x00	; 0
+ 38a:	80 e0       	ldi	r24, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:71
+}
+ 38c:	08 95       	ret
+
+0000038e <TwoWire::write(unsigned char const*, unsigned int) [clone .constprop.7]>:
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:894
+  return value;
+}
+
+#endif
+
+size_t TwoWire::write(const uint8_t *data, size_t quantity) {
+ 38e:	ef 92       	push	r14
+ 390:	ff 92       	push	r15
+ 392:	0f 93       	push	r16
+ 394:	1f 93       	push	r17
+ 396:	cf 93       	push	r28
+ 398:	df 93       	push	r29
+ 39a:	ec 01       	movw	r28, r24
+ 39c:	7c 01       	movw	r14, r24
+ 39e:	e6 0e       	add	r14, r22
+ 3a0:	f7 1e       	adc	r15, r23
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:895
+  size_t numBytes = 0;
+ 3a2:	10 e0       	ldi	r17, 0x00	; 0
+ 3a4:	00 e0       	ldi	r16, 0x00	; 0
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:896
+  for (size_t i = 0; i < quantity; ++i) {
+ 3a6:	ce 15       	cp	r28, r14
+ 3a8:	df 05       	cpc	r29, r15
+ 3aa:	39 f0       	breq	.+14     	; 0x3ba <TwoWire::write(unsigned char const*, unsigned int) [clone .constprop.7]+0x2c>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:897
+    numBytes += write(data[i]);
+ 3ac:	69 91       	ld	r22, Y+
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:851
+  return value;
+}
+#else //WIRE_SLAVE_ONLY
+size_t TwoWire::write(uint8_t data) {
+  size_t numBytes = 0;
+  numBytes = TinyWireS.write(data);
+ 3ae:	8f ec       	ldi	r24, 0xCF	; 207
+ 3b0:	91 e0       	ldi	r25, 0x01	; 1
+ 3b2:	d5 df       	rcall	.-86     	; 0x35e <i2c_tinyS::write(unsigned char)>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:897
+#endif
+
+size_t TwoWire::write(const uint8_t *data, size_t quantity) {
+  size_t numBytes = 0;
+  for (size_t i = 0; i < quantity; ++i) {
+    numBytes += write(data[i]);
+ 3b4:	08 0f       	add	r16, r24
+ 3b6:	19 1f       	adc	r17, r25
+ 3b8:	f6 cf       	rjmp	.-20     	; 0x3a6 <TwoWire::write(unsigned char const*, unsigned int) [clone .constprop.7]+0x18>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:900
+  }
+  return numBytes;
+}
+ 3ba:	c8 01       	movw	r24, r16
+ 3bc:	df 91       	pop	r29
+ 3be:	cf 91       	pop	r28
+ 3c0:	1f 91       	pop	r17
+ 3c2:	0f 91       	pop	r16
+ 3c4:	ff 90       	pop	r15
+ 3c6:	ef 90       	pop	r14
+ 3c8:	08 95       	ret
+
+000003ca <i2c_tinyS::flush()>:
+flush():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.h:110
+        inline int peek(void) { return peek_(i2c); }
+        static uint8_t readByte_(struct i2cStruct* i2c);
+        inline uint8_t readByte(void) { return readByte_(i2c); }
+        static uint8_t peekByte_(struct i2cStruct* i2c);
+        inline uint8_t peekByte(void) { return peekByte_(i2c); }
+        inline void flush(void) {}
+ 3ca:	08 95       	ret
+
+000003cc <i2c_tinyS::peek()>:
+peek():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.h:105
+        inline size_t write(const char* str) { write((const uint8_t*)str, strlen(str)); }
+        inline int available(void) { return i2c->rxBufferLength - i2c->rxBufferIndex; }
+        static int read_(struct i2cStruct* i2c);
+        inline int read(void) { return read_(i2c); }
+        static int peek_(struct i2cStruct* i2c);
+        inline int peek(void) { return peek_(i2c); }
+ 3cc:	dc 01       	movw	r26, r24
+ 3ce:	1c 96       	adiw	r26, 0x0c	; 12
+ 3d0:	ed 91       	ld	r30, X+
+ 3d2:	fc 91       	ld	r31, X
+peek_():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:89
+    if(i2c->rxBufferIndex >= i2c->rxBufferLength) return -1;
+    return i2c->Buffer[i2c->rxBufferIndex++];
+}
+
+int i2c_tinyS::peek_(struct i2cStruct* i2c) {
+    if(i2c->rxBufferIndex >= i2c->rxBufferLength) return -1;
+ 3d4:	20 a1       	ldd	r18, Z+32	; 0x20
+ 3d6:	31 a1       	ldd	r19, Z+33	; 0x21
+ 3d8:	82 a1       	ldd	r24, Z+34	; 0x22
+ 3da:	93 a1       	ldd	r25, Z+35	; 0x23
+ 3dc:	28 17       	cp	r18, r24
+ 3de:	39 07       	cpc	r19, r25
+ 3e0:	38 f4       	brcc	.+14     	; 0x3f0 <i2c_tinyS::peek()+0x24>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:90
+    return i2c->Buffer[i2c->rxBufferIndex];
+ 3e2:	80 a1       	ldd	r24, Z+32	; 0x20
+ 3e4:	91 a1       	ldd	r25, Z+33	; 0x21
+ 3e6:	e8 0f       	add	r30, r24
+ 3e8:	f9 1f       	adc	r31, r25
+ 3ea:	80 81       	ld	r24, Z
+ 3ec:	90 e0       	ldi	r25, 0x00	; 0
+ 3ee:	08 95       	ret
+peek():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:89
+    if(i2c->rxBufferIndex >= i2c->rxBufferLength) return -1;
+    return i2c->Buffer[i2c->rxBufferIndex++];
+}
+
+int i2c_tinyS::peek_(struct i2cStruct* i2c) {
+    if(i2c->rxBufferIndex >= i2c->rxBufferLength) return -1;
+ 3f0:	8f ef       	ldi	r24, 0xFF	; 255
+ 3f2:	9f ef       	ldi	r25, 0xFF	; 255
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.h:105
+ 3f4:	08 95       	ret
+
+000003f6 <i2c_tinyS::read()>:
+read():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.h:103
+        inline size_t write(int n)           { return write((uint8_t)n); }
+        size_t write(const uint8_t* data, size_t quantity);
+        inline size_t write(const char* str) { write((const uint8_t*)str, strlen(str)); }
+        inline int available(void) { return i2c->rxBufferLength - i2c->rxBufferIndex; }
+        static int read_(struct i2cStruct* i2c);
+        inline int read(void) { return read_(i2c); }
+ 3f6:	dc 01       	movw	r26, r24
+ 3f8:	1c 96       	adiw	r26, 0x0c	; 12
+ 3fa:	ed 91       	ld	r30, X+
+ 3fc:	fc 91       	ld	r31, X
+read_():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:84
+        i2c->txBufferLength += quantity;
+    }
+}
+
+int i2c_tinyS::read_(struct i2cStruct* i2c) {
+    if(i2c->rxBufferIndex >= i2c->rxBufferLength) return -1;
+ 3fe:	20 a1       	ldd	r18, Z+32	; 0x20
+ 400:	31 a1       	ldd	r19, Z+33	; 0x21
+ 402:	82 a1       	ldd	r24, Z+34	; 0x22
+ 404:	93 a1       	ldd	r25, Z+35	; 0x23
+ 406:	28 17       	cp	r18, r24
+ 408:	39 07       	cpc	r19, r25
+ 40a:	60 f4       	brcc	.+24     	; 0x424 <__LOCK_REGION_LENGTH__+0x24>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:85
+    return i2c->Buffer[i2c->rxBufferIndex++];
+ 40c:	80 a1       	ldd	r24, Z+32	; 0x20
+ 40e:	91 a1       	ldd	r25, Z+33	; 0x21
+ 410:	9c 01       	movw	r18, r24
+ 412:	2f 5f       	subi	r18, 0xFF	; 255
+ 414:	3f 4f       	sbci	r19, 0xFF	; 255
+ 416:	31 a3       	std	Z+33, r19	; 0x21
+ 418:	20 a3       	std	Z+32, r18	; 0x20
+ 41a:	e8 0f       	add	r30, r24
+ 41c:	f9 1f       	adc	r31, r25
+ 41e:	80 81       	ld	r24, Z
+ 420:	90 e0       	ldi	r25, 0x00	; 0
+ 422:	08 95       	ret
+read():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:84
+        i2c->txBufferLength += quantity;
+    }
+}
+
+int i2c_tinyS::read_(struct i2cStruct* i2c) {
+    if(i2c->rxBufferIndex >= i2c->rxBufferLength) return -1;
+ 424:	8f ef       	ldi	r24, 0xFF	; 255
+ 426:	9f ef       	ldi	r25, 0xFF	; 255
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.h:103
+ 428:	08 95       	ret
+
+0000042a <i2c_tinyS::available()>:
+available():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.h:101
+        inline size_t write(long n)          { return write((uint8_t)n); }
+        inline size_t write(unsigned int n)  { return write((uint8_t)n); }
+        inline size_t write(int n)           { return write((uint8_t)n); }
+        size_t write(const uint8_t* data, size_t quantity);
+        inline size_t write(const char* str) { write((const uint8_t*)str, strlen(str)); }
+        inline int available(void) { return i2c->rxBufferLength - i2c->rxBufferIndex; }
+ 42a:	dc 01       	movw	r26, r24
+ 42c:	1c 96       	adiw	r26, 0x0c	; 12
+ 42e:	ed 91       	ld	r30, X+
+ 430:	fc 91       	ld	r31, X
+ 432:	82 a1       	ldd	r24, Z+34	; 0x22
+ 434:	93 a1       	ldd	r25, Z+35	; 0x23
+ 436:	20 a1       	ldd	r18, Z+32	; 0x20
+ 438:	31 a1       	ldd	r19, Z+33	; 0x21
+ 43a:	82 1b       	sub	r24, r18
+ 43c:	93 0b       	sbc	r25, r19
+ 43e:	08 95       	ret
+
+00000440 <requestEvent()>:
+requestEvent():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:88
+// Handle a read of the IO pins or the Serial port
+// If last_address was IO_REG (0x10) then return the status of the IO pins
+// If last_address was LEN_REG (0xFD), return the MSB and LSB of the serial buffer length and store them in serAvailMSB/LSB
+// If last_address was DATA_REG (0xFF), return up to SER_PACKET_SIZE bytes from the serial buffer and update serAvailMSB/LSB
+void requestEvent()
+{
+ 440:	cf 92       	push	r12
+ 442:	df 92       	push	r13
+ 444:	ef 92       	push	r14
+ 446:	ff 92       	push	r15
+ 448:	0f 93       	push	r16
+ 44a:	1f 93       	push	r17
+ 44c:	cf 93       	push	r28
+ 44e:	df 93       	push	r29
+ 450:	cd b7       	in	r28, 0x3d	; 61
+ 452:	de b7       	in	r29, 0x3e	; 62
+ 454:	28 97       	sbiw	r28, 0x08	; 8
+ 456:	0f b6       	in	r0, 0x3f	; 63
+ 458:	f8 94       	cli
+ 45a:	de bf       	out	0x3e, r29	; 62
+ 45c:	0f be       	out	0x3f, r0	; 63
+ 45e:	cd bf       	out	0x3d, r28	; 61
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:89
+  if (last_address == IO_REG) // Return the status of the IO pins
+ 460:	80 91 23 01 	lds	r24, 0x0123	; 0x800123 <last_address>
+ 464:	80 31       	cpi	r24, 0x10	; 16
+ 466:	09 f0       	breq	.+2      	; 0x46a <requestEvent()+0x2a>
+ 468:	64 c0       	rjmp	.+200    	; 0x532 <requestEvent()+0xf2>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:93
+  {
+    // Read the IO pins one at a time and set or clear bits in IO_REGISTER appropriately
+    
+    if (digitalRead(SHDN) == SHDN__ON) { // If the SHDN pin is in its ON state (not necessarily that it is HIGH)
+ 46a:	8a e0       	ldi	r24, 0x0A	; 10
+ 46c:	14 de       	rcall	.-984    	; 0x96 <digitalRead>
+ 46e:	01 97       	sbiw	r24, 0x01	; 1
+ 470:	09 f0       	breq	.+2      	; 0x474 <requestEvent()+0x34>
+ 472:	43 c0       	rjmp	.+134    	; 0x4fa <requestEvent()+0xba>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:94
+      IO_REGISTER |= IO_SHDN; // Set the SHDN bit in IO_REGISTER
+ 474:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 478:	81 60       	ori	r24, 0x01	; 1
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:97
+    }
+    else {
+      IO_REGISTER &= ~IO_SHDN; // Clear the SHDN bit in IO_REGISTER
+ 47a:	80 93 26 01 	sts	0x0126, r24	; 0x800126 <IO_REGISTER>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:100
+    }
+    
+    if (digitalRead(PWR_EN) == PWR_EN__ON) { // If the PWR_EN pin is in its ON state (not necessarily that it is HIGH)
+ 47e:	83 e0       	ldi	r24, 0x03	; 3
+ 480:	0a de       	rcall	.-1004   	; 0x96 <digitalRead>
+ 482:	01 97       	sbiw	r24, 0x01	; 1
+ 484:	f1 f5       	brne	.+124    	; 0x502 <requestEvent()+0xc2>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:101
+      IO_REGISTER |= IO_PWR_EN; // Set the PWR_EN bit in IO_REGISTER
+ 486:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 48a:	82 60       	ori	r24, 0x02	; 2
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:104
+    }
+    else {
+      IO_REGISTER &= ~IO_PWR_EN; // Clear the PWR_EN bit in IO_REGISTER
+ 48c:	80 93 26 01 	sts	0x0126, r24	; 0x800126 <IO_REGISTER>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:107
+    }
+    
+    if (digitalRead(ON_OFF) == ON_OFF__ON) { // If the ON_OFF pin is in its ON state (not necessarily that it is HIGH)
+ 490:	80 e0       	ldi	r24, 0x00	; 0
+ 492:	01 de       	rcall	.-1022   	; 0x96 <digitalRead>
+ 494:	01 97       	sbiw	r24, 0x01	; 1
+ 496:	c9 f5       	brne	.+114    	; 0x50a <requestEvent()+0xca>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:108
+      IO_REGISTER |= IO_ON_OFF; // Set the ON_OFF bit in IO_REGISTER
+ 498:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 49c:	84 60       	ori	r24, 0x04	; 4
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:111
+    }
+    else {
+      IO_REGISTER &= ~IO_ON_OFF; // Clear the ON_OFF bit in IO_REGISTER
+ 49e:	80 93 26 01 	sts	0x0126, r24	; 0x800126 <IO_REGISTER>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:114
+    }
+    
+    if (RI_FLAG == true) { // If the RI_FLAG is true (set by the ISR)
+ 4a2:	80 91 22 01 	lds	r24, 0x0122	; 0x800122 <RI_FLAG>
+ 4a6:	81 30       	cpi	r24, 0x01	; 1
+ 4a8:	a1 f5       	brne	.+104    	; 0x512 <requestEvent()+0xd2>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:115
+      IO_REGISTER |= IO_RI; // Set the RI bit in IO_REGISTER
+ 4aa:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 4ae:	88 60       	ori	r24, 0x08	; 8
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:118
+    }
+    else {
+      IO_REGISTER &= ~IO_RI; // Clear the RI bit in IO_REGISTER
+ 4b0:	80 93 26 01 	sts	0x0126, r24	; 0x800126 <IO_REGISTER>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:121
+    }
+    
+    if (digitalRead(NA) == NA__ON) { // If the NA pin is in its ON state (not necessarily that it is HIGH)
+ 4b4:	87 e0       	ldi	r24, 0x07	; 7
+ 4b6:	ef dd       	rcall	.-1058   	; 0x96 <digitalRead>
+ 4b8:	01 97       	sbiw	r24, 0x01	; 1
+ 4ba:	79 f5       	brne	.+94     	; 0x51a <requestEvent()+0xda>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:122
+      IO_REGISTER |= IO_NA; // Set the NA bit in IO_REGISTER
+ 4bc:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 4c0:	80 61       	ori	r24, 0x10	; 16
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:125
+    }
+    else {
+      IO_REGISTER &= ~IO_NA; // Clear the NA bit in IO_REGISTER
+ 4c2:	80 93 26 01 	sts	0x0126, r24	; 0x800126 <IO_REGISTER>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:128
+    }
+    
+    if (digitalRead(PGOOD) == PGOOD__ON) { // If the PGOOD pin is in its ON state (not necessarily that it is HIGH)
+ 4c6:	88 e0       	ldi	r24, 0x08	; 8
+ 4c8:	e6 dd       	rcall	.-1076   	; 0x96 <digitalRead>
+ 4ca:	01 97       	sbiw	r24, 0x01	; 1
+ 4cc:	51 f5       	brne	.+84     	; 0x522 <requestEvent()+0xe2>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:129
+      IO_REGISTER |= IO_PGOOD; // Set the PGOOD bit in IO_REGISTER
+ 4ce:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 4d2:	80 62       	ori	r24, 0x20	; 32
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:132
+    }
+    else {
+      IO_REGISTER &= ~IO_PGOOD; // Clear the PGOOD bit in IO_REGISTER
+ 4d4:	80 93 26 01 	sts	0x0126, r24	; 0x800126 <IO_REGISTER>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:135
+    }
+  
+    if (LOW_POWER_MODE) { // If low power mode is enabled
+ 4d8:	80 91 2b 01 	lds	r24, 0x012B	; 0x80012b <LOW_POWER_MODE>
+ 4dc:	88 23       	and	r24, r24
+ 4de:	29 f1       	breq	.+74     	; 0x52a <requestEvent()+0xea>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:136
+      IO_REGISTER |= IO_LOW_PWR; // Set the low power bit in IO_REGISTER
+ 4e0:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 4e4:	80 64       	ori	r24, 0x40	; 64
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:139
+    }
+    else {
+      IO_REGISTER &= ~IO_LOW_PWR; // Clear the low power bit in IO_REGISTER
+ 4e6:	80 93 26 01 	sts	0x0126, r24	; 0x800126 <IO_REGISTER>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:143
+    }
+  
+    // Now write IO_REGISTER to I2C
+    Wire.write(IO_REGISTER);
+ 4ea:	60 91 26 01 	lds	r22, 0x0126	; 0x800126 <IO_REGISTER>
+write():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:851
+  return value;
+}
+#else //WIRE_SLAVE_ONLY
+size_t TwoWire::write(uint8_t data) {
+  size_t numBytes = 0;
+  numBytes = TinyWireS.write(data);
+ 4ee:	8f ec       	ldi	r24, 0xCF	; 207
+ 4f0:	91 e0       	ldi	r25, 0x01	; 1
+ 4f2:	35 df       	rcall	.-406    	; 0x35e <i2c_tinyS::write(unsigned char)>
+requestEvent():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:200
+      Wire.write(buff, avail); // Write the bytes
+      last_address = 0; // Reset last_address to zero now all bytes have been written
+    }
+    else // If there are zero bytes to send - this should hopefully be redundant/impossible?
+    {
+      last_address = 0; // Reset last_address to zero
+ 4f4:	10 92 23 01 	sts	0x0123, r1	; 0x800123 <last_address>
+ 4f8:	5b c0       	rjmp	.+182    	; 0x5b0 <requestEvent()+0x170>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:97
+    
+    if (digitalRead(SHDN) == SHDN__ON) { // If the SHDN pin is in its ON state (not necessarily that it is HIGH)
+      IO_REGISTER |= IO_SHDN; // Set the SHDN bit in IO_REGISTER
+    }
+    else {
+      IO_REGISTER &= ~IO_SHDN; // Clear the SHDN bit in IO_REGISTER
+ 4fa:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 4fe:	8e 7f       	andi	r24, 0xFE	; 254
+ 500:	bc cf       	rjmp	.-136    	; 0x47a <requestEvent()+0x3a>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:104
+    
+    if (digitalRead(PWR_EN) == PWR_EN__ON) { // If the PWR_EN pin is in its ON state (not necessarily that it is HIGH)
+      IO_REGISTER |= IO_PWR_EN; // Set the PWR_EN bit in IO_REGISTER
+    }
+    else {
+      IO_REGISTER &= ~IO_PWR_EN; // Clear the PWR_EN bit in IO_REGISTER
+ 502:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 506:	8d 7f       	andi	r24, 0xFD	; 253
+ 508:	c1 cf       	rjmp	.-126    	; 0x48c <requestEvent()+0x4c>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:111
+    
+    if (digitalRead(ON_OFF) == ON_OFF__ON) { // If the ON_OFF pin is in its ON state (not necessarily that it is HIGH)
+      IO_REGISTER |= IO_ON_OFF; // Set the ON_OFF bit in IO_REGISTER
+    }
+    else {
+      IO_REGISTER &= ~IO_ON_OFF; // Clear the ON_OFF bit in IO_REGISTER
+ 50a:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 50e:	8b 7f       	andi	r24, 0xFB	; 251
+ 510:	c6 cf       	rjmp	.-116    	; 0x49e <requestEvent()+0x5e>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:118
+    
+    if (RI_FLAG == true) { // If the RI_FLAG is true (set by the ISR)
+      IO_REGISTER |= IO_RI; // Set the RI bit in IO_REGISTER
+    }
+    else {
+      IO_REGISTER &= ~IO_RI; // Clear the RI bit in IO_REGISTER
+ 512:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 516:	87 7f       	andi	r24, 0xF7	; 247
+ 518:	cb cf       	rjmp	.-106    	; 0x4b0 <requestEvent()+0x70>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:125
+    
+    if (digitalRead(NA) == NA__ON) { // If the NA pin is in its ON state (not necessarily that it is HIGH)
+      IO_REGISTER |= IO_NA; // Set the NA bit in IO_REGISTER
+    }
+    else {
+      IO_REGISTER &= ~IO_NA; // Clear the NA bit in IO_REGISTER
+ 51a:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 51e:	8f 7e       	andi	r24, 0xEF	; 239
+ 520:	d0 cf       	rjmp	.-96     	; 0x4c2 <requestEvent()+0x82>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:132
+    
+    if (digitalRead(PGOOD) == PGOOD__ON) { // If the PGOOD pin is in its ON state (not necessarily that it is HIGH)
+      IO_REGISTER |= IO_PGOOD; // Set the PGOOD bit in IO_REGISTER
+    }
+    else {
+      IO_REGISTER &= ~IO_PGOOD; // Clear the PGOOD bit in IO_REGISTER
+ 522:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 526:	8f 7d       	andi	r24, 0xDF	; 223
+ 528:	d5 cf       	rjmp	.-86     	; 0x4d4 <requestEvent()+0x94>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:139
+  
+    if (LOW_POWER_MODE) { // If low power mode is enabled
+      IO_REGISTER |= IO_LOW_PWR; // Set the low power bit in IO_REGISTER
+    }
+    else {
+      IO_REGISTER &= ~IO_LOW_PWR; // Clear the low power bit in IO_REGISTER
+ 52a:	80 91 26 01 	lds	r24, 0x0126	; 0x800126 <IO_REGISTER>
+ 52e:	8f 7b       	andi	r24, 0xBF	; 191
+ 530:	da cf       	rjmp	.-76     	; 0x4e6 <requestEvent()+0xa6>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:149
+
+    // Reset last_address to zero
+    last_address = 0;
+  }
+
+  else if (last_address == LEN_REG) // Return the MSB and LSB of the serial buffer length and store them in serAvailMSB/LSB
+ 532:	80 91 23 01 	lds	r24, 0x0123	; 0x800123 <last_address>
+ 536:	8d 3f       	cpi	r24, 0xFD	; 253
+ 538:	99 f4       	brne	.+38     	; 0x560 <requestEvent()+0x120>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:152
+  {
+    //Check how many bytes are available in the serial buffer
+    uint16_t avail = Serial.available();
+ 53a:	8d e7       	ldi	r24, 0x7D	; 125
+ 53c:	91 e0       	ldi	r25, 0x01	; 1
+ 53e:	d2 de       	rcall	.-604    	; 0x2e4 <HardwareSerial::available()>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:155
+    
+    //Store the MSB for the subsequent requestEvent
+    serAvailMSB = (uint8_t)((avail & 0xFF00) >> 8);
+ 540:	90 93 21 01 	sts	0x0121, r25	; 0x800121 <serAvailMSB>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:158
+    
+    //Store the LSB for the subsequent  requestEvent
+    serAvailLSB = (uint8_t)(avail & 0xFF);
+ 544:	80 93 20 01 	sts	0x0120, r24	; 0x800120 <__data_end>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:161
+
+    uint8_t buff[2];
+    buff[0] = serAvailMSB;
+ 548:	80 91 21 01 	lds	r24, 0x0121	; 0x800121 <serAvailMSB>
+ 54c:	89 83       	std	Y+1, r24	; 0x01
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:162
+    buff[1] = serAvailLSB;
+ 54e:	80 91 20 01 	lds	r24, 0x0120	; 0x800120 <__data_end>
+ 552:	8a 83       	std	Y+2, r24	; 0x02
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:164
+
+    Wire.write(buff, 2); // Return the available bytes in MSB, LSB format
+ 554:	62 e0       	ldi	r22, 0x02	; 2
+ 556:	70 e0       	ldi	r23, 0x00	; 0
+ 558:	ce 01       	movw	r24, r28
+ 55a:	01 96       	adiw	r24, 0x01	; 1
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:195
+      serAvailLSB = 0;
+      for (int i = 0; i < avail; i++) // For each byte
+      {
+        buff[i] = Serial.read(); // Read a byte from the serial buffer
+      }
+      Wire.write(buff, avail); // Write the bytes
+ 55c:	18 df       	rcall	.-464    	; 0x38e <TwoWire::write(unsigned char const*, unsigned int) [clone .constprop.7]>
+ 55e:	ca cf       	rjmp	.-108    	; 0x4f4 <requestEvent()+0xb4>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:170
+
+    // Reset last_address to zero
+    last_address = 0;
+  }
+
+  else if (last_address == DATA_REG) // Return up to SER_PACKET_SIZE bytes from the serial buffer and update serAvailMSB/LSB
+ 560:	80 91 23 01 	lds	r24, 0x0123	; 0x800123 <last_address>
+ 564:	8f 3f       	cpi	r24, 0xFF	; 255
+ 566:	21 f5       	brne	.+72     	; 0x5b0 <requestEvent()+0x170>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:173
+  {
+    // Check how many bytes the Master is expecting us to send
+    uint16_t avail = (((uint16_t)serAvailMSB) << 8) | (uint16_t)serAvailLSB;
+ 568:	00 91 21 01 	lds	r16, 0x0121	; 0x800121 <serAvailMSB>
+ 56c:	80 91 20 01 	lds	r24, 0x0120	; 0x800120 <__data_end>
+ 570:	10 2f       	mov	r17, r16
+ 572:	08 2f       	mov	r16, r24
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:175
+    uint8_t buff[SER_PACKET_SIZE];
+    if (avail > SER_PACKET_SIZE) // If there are more than SER_PACKET_SIZE bytes to write
+ 574:	09 30       	cpi	r16, 0x09	; 9
+ 576:	11 05       	cpc	r17, r1
+ 578:	98 f1       	brcs	.+102    	; 0x5e0 <requestEvent()+0x1a0>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:177
+    {
+      avail = avail - SER_PACKET_SIZE; // Decrease the available bytes by SER_PACKET_SIZE
+ 57a:	08 50       	subi	r16, 0x08	; 8
+ 57c:	11 09       	sbc	r17, r1
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:179
+      // Update the number of available bytes and leave last_address set to DATA_REG
+      serAvailMSB = (uint8_t)((avail & 0xFF00) >> 8);
+ 57e:	10 93 21 01 	sts	0x0121, r17	; 0x800121 <serAvailMSB>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:180
+      serAvailLSB = (uint8_t)(avail & 0xFF);
+ 582:	00 93 20 01 	sts	0x0120, r16	; 0x800120 <__data_end>
+ 586:	8e 01       	movw	r16, r28
+ 588:	0f 5f       	subi	r16, 0xFF	; 255
+ 58a:	1f 4f       	sbci	r17, 0xFF	; 255
+ 58c:	6e 01       	movw	r12, r28
+ 58e:	89 e0       	ldi	r24, 0x09	; 9
+ 590:	c8 0e       	add	r12, r24
+ 592:	d1 1c       	adc	r13, r1
+ 594:	78 01       	movw	r14, r16
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:183
+      for (int i = 0; i < SER_PACKET_SIZE; i++) // For each of the bytes
+      {
+        buff[i] = Serial.read(); // Read a byte from the serial buffer
+ 596:	8d e7       	ldi	r24, 0x7D	; 125
+ 598:	91 e0       	ldi	r25, 0x01	; 1
+ 59a:	77 de       	rcall	.-786    	; 0x28a <HardwareSerial::read()>
+ 59c:	f8 01       	movw	r30, r16
+ 59e:	81 93       	st	Z+, r24
+ 5a0:	8f 01       	movw	r16, r30
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:181
+    {
+      avail = avail - SER_PACKET_SIZE; // Decrease the available bytes by SER_PACKET_SIZE
+      // Update the number of available bytes and leave last_address set to DATA_REG
+      serAvailMSB = (uint8_t)((avail & 0xFF00) >> 8);
+      serAvailLSB = (uint8_t)(avail & 0xFF);
+      for (int i = 0; i < SER_PACKET_SIZE; i++) // For each of the bytes
+ 5a2:	ec 15       	cp	r30, r12
+ 5a4:	fd 05       	cpc	r31, r13
+ 5a6:	b9 f7       	brne	.-18     	; 0x596 <requestEvent()+0x156>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:185
+      {
+        buff[i] = Serial.read(); // Read a byte from the serial buffer
+      }
+      Wire.write(buff, SER_PACKET_SIZE); // Write the bytes
+ 5a8:	68 e0       	ldi	r22, 0x08	; 8
+ 5aa:	70 e0       	ldi	r23, 0x00	; 0
+ 5ac:	c7 01       	movw	r24, r14
+ 5ae:	ef de       	rcall	.-546    	; 0x38e <TwoWire::write(unsigned char const*, unsigned int) [clone .constprop.7]>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:204
+    {
+      last_address = 0; // Reset last_address to zero
+    }
+  }
+
+  last_activity = millis(); // Update last_activity
+ 5b0:	13 de       	rcall	.-986    	; 0x1d8 <millis>
+ 5b2:	60 93 27 01 	sts	0x0127, r22	; 0x800127 <last_activity>
+ 5b6:	70 93 28 01 	sts	0x0128, r23	; 0x800128 <last_activity+0x1>
+ 5ba:	80 93 29 01 	sts	0x0129, r24	; 0x800129 <last_activity+0x2>
+ 5be:	90 93 2a 01 	sts	0x012A, r25	; 0x80012a <last_activity+0x3>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:205
+}
+ 5c2:	28 96       	adiw	r28, 0x08	; 8
+ 5c4:	0f b6       	in	r0, 0x3f	; 63
+ 5c6:	f8 94       	cli
+ 5c8:	de bf       	out	0x3e, r29	; 62
+ 5ca:	0f be       	out	0x3f, r0	; 63
+ 5cc:	cd bf       	out	0x3d, r28	; 61
+ 5ce:	df 91       	pop	r29
+ 5d0:	cf 91       	pop	r28
+ 5d2:	1f 91       	pop	r17
+ 5d4:	0f 91       	pop	r16
+ 5d6:	ff 90       	pop	r15
+ 5d8:	ef 90       	pop	r14
+ 5da:	df 90       	pop	r13
+ 5dc:	cf 90       	pop	r12
+ 5de:	08 95       	ret
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:187
+      {
+        buff[i] = Serial.read(); // Read a byte from the serial buffer
+      }
+      Wire.write(buff, SER_PACKET_SIZE); // Write the bytes
+    }
+    else if (avail > 0) // If there are <= SER_PACKET_SIZE bytes left (but more than zero)
+ 5e0:	01 15       	cp	r16, r1
+ 5e2:	11 05       	cpc	r17, r1
+ 5e4:	09 f4       	brne	.+2      	; 0x5e8 <requestEvent()+0x1a8>
+ 5e6:	86 cf       	rjmp	.-244    	; 0x4f4 <requestEvent()+0xb4>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:189
+    {
+      serAvailMSB = 0; // Zero the number of available bytes (redundant?)
+ 5e8:	10 92 21 01 	sts	0x0121, r1	; 0x800121 <serAvailMSB>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:190
+      serAvailLSB = 0;
+ 5ec:	10 92 20 01 	sts	0x0120, r1	; 0x800120 <__data_end>
+ 5f0:	ce 01       	movw	r24, r28
+ 5f2:	01 96       	adiw	r24, 0x01	; 1
+ 5f4:	7c 01       	movw	r14, r24
+ 5f6:	6c 01       	movw	r12, r24
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:191
+      for (int i = 0; i < avail; i++) // For each byte
+ 5f8:	c6 01       	movw	r24, r12
+ 5fa:	8e 19       	sub	r24, r14
+ 5fc:	9f 09       	sbc	r25, r15
+ 5fe:	80 17       	cp	r24, r16
+ 600:	91 07       	cpc	r25, r17
+ 602:	38 f4       	brcc	.+14     	; 0x612 <requestEvent()+0x1d2>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:193
+      {
+        buff[i] = Serial.read(); // Read a byte from the serial buffer
+ 604:	8d e7       	ldi	r24, 0x7D	; 125
+ 606:	91 e0       	ldi	r25, 0x01	; 1
+ 608:	40 de       	rcall	.-896    	; 0x28a <HardwareSerial::read()>
+ 60a:	f6 01       	movw	r30, r12
+ 60c:	81 93       	st	Z+, r24
+ 60e:	6f 01       	movw	r12, r30
+ 610:	f3 cf       	rjmp	.-26     	; 0x5f8 <requestEvent()+0x1b8>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:195
+      }
+      Wire.write(buff, avail); // Write the bytes
+ 612:	b8 01       	movw	r22, r16
+ 614:	c7 01       	movw	r24, r14
+ 616:	a2 cf       	rjmp	.-188    	; 0x55c <requestEvent()+0x11c>
+
+00000618 <receiveEvent(int)>:
+receiveEvent():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:9
+// ================
+// Handle a write to the IO pins or the Serial port
+// If the first byte is IO_REG (0x10), read one more byte if present and write the contents to the IO pins.
+// If the first byte is LEN_REG (0xFD), store it in last_address so we know what to do during the next requestEvent
+// If the first byte is DATA_REG (0xFF), keep reading bytes (if any) and write them to the 9603 serial port.
+void receiveEvent(int numberOfBytesReceived) {
+ 618:	0f 93       	push	r16
+ 61a:	1f 93       	push	r17
+ 61c:	cf 93       	push	r28
+ 61e:	df 93       	push	r29
+ 620:	8c 01       	movw	r16, r24
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:10
+  if (numberOfBytesReceived > 0) { // Check that we received some data (!) (hopefully redundant!)
+ 622:	18 16       	cp	r1, r24
+ 624:	19 06       	cpc	r1, r25
+ 626:	ac f5       	brge	.+106    	; 0x692 <receiveEvent(int)+0x7a>
+read():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:879
+// must be called in:
+// slave rx event callback
+// or after requestFrom(address, numBytes)
+int TwoWire::read(void) {
+  int value = -1;
+    value = TinyWireS.read();
+ 628:	8f ec       	ldi	r24, 0xCF	; 207
+ 62a:	91 e0       	ldi	r25, 0x01	; 1
+ 62c:	e4 de       	rcall	.-568    	; 0x3f6 <i2c_tinyS::read()>
+receiveEvent():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:13
+    
+    uint8_t incoming = Wire.read(); // Read the first byte
+    last_address = incoming; // Store this byte in last_address so we know what to do during the next requestEvent
+ 62e:	80 93 23 01 	sts	0x0123, r24	; 0x800123 <last_address>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:15
+
+    if (incoming == IO_REG) { // Does the Master want to read or set the I/O pins?
+ 632:	80 31       	cpi	r24, 0x10	; 16
+ 634:	09 f0       	breq	.+2      	; 0x638 <receiveEvent(int)+0x20>
+ 636:	3b c0       	rjmp	.+118    	; 0x6ae <receiveEvent(int)+0x96>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:16
+      if (numberOfBytesReceived > 1) { // Did the Master send a second byte to set the I/O pins?
+ 638:	01 30       	cpi	r16, 0x01	; 1
+ 63a:	11 05       	cpc	r17, r1
+ 63c:	51 f1       	breq	.+84     	; 0x692 <receiveEvent(int)+0x7a>
+read():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:879
+ 63e:	8f ec       	ldi	r24, 0xCF	; 207
+ 640:	91 e0       	ldi	r25, 0x01	; 1
+ 642:	d9 de       	rcall	.-590    	; 0x3f6 <i2c_tinyS::read()>
+ 644:	ec 01       	movw	r28, r24
+receiveEvent():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:20
+        uint8_t incoming2 = Wire.read(); // Read the second byte
+
+        if (incoming2 & IO_SHDN) { // If the SHDN bit is ON
+          digitalWrite(SHDN, SHDN__ON); // Turn the pin ON
+ 646:	61 e0       	ldi	r22, 0x01	; 1
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:19
+
+    if (incoming == IO_REG) { // Does the Master want to read or set the I/O pins?
+      if (numberOfBytesReceived > 1) { // Did the Master send a second byte to set the I/O pins?
+        uint8_t incoming2 = Wire.read(); // Read the second byte
+
+        if (incoming2 & IO_SHDN) { // If the SHDN bit is ON
+ 648:	80 ff       	sbrs	r24, 0
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:23
+          digitalWrite(SHDN, SHDN__ON); // Turn the pin ON
+        }
+        else {
+          digitalWrite(SHDN, SHDN__OFF); // Turn the pin OFF
+ 64a:	60 e0       	ldi	r22, 0x00	; 0
+ 64c:	8a e0       	ldi	r24, 0x0A	; 10
+ 64e:	5e dd       	rcall	.-1348   	; 0x10c <digitalWrite>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:27
+        }
+        
+        if (incoming2 & IO_PWR_EN) { // If the PWR_EN bit is ON
+          digitalWrite(PWR_EN, PWR_EN__ON); // Turn the pin ON
+ 650:	61 e0       	ldi	r22, 0x01	; 1
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:26
+        }
+        else {
+          digitalWrite(SHDN, SHDN__OFF); // Turn the pin OFF
+        }
+        
+        if (incoming2 & IO_PWR_EN) { // If the PWR_EN bit is ON
+ 652:	c1 ff       	sbrs	r28, 1
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:30
+          digitalWrite(PWR_EN, PWR_EN__ON); // Turn the pin ON
+        }
+        else {
+          digitalWrite(PWR_EN, PWR_EN__OFF); // Turn the pin OFF
+ 654:	60 e0       	ldi	r22, 0x00	; 0
+ 656:	83 e0       	ldi	r24, 0x03	; 3
+ 658:	59 dd       	rcall	.-1358   	; 0x10c <digitalWrite>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:34
+        }
+        
+        if (incoming2 & IO_ON_OFF) { // If the ON_OFF bit is ON
+          digitalWrite(ON_OFF, ON_OFF__ON); // Turn the pin ON
+ 65a:	61 e0       	ldi	r22, 0x01	; 1
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:33
+        }
+        else {
+          digitalWrite(PWR_EN, PWR_EN__OFF); // Turn the pin OFF
+        }
+        
+        if (incoming2 & IO_ON_OFF) { // If the ON_OFF bit is ON
+ 65c:	c2 ff       	sbrs	r28, 2
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:37
+          digitalWrite(ON_OFF, ON_OFF__ON); // Turn the pin ON
+        }
+        else {
+          digitalWrite(ON_OFF, ON_OFF__OFF); // Turn the pin OFF
+ 65e:	60 e0       	ldi	r22, 0x00	; 0
+ 660:	80 e0       	ldi	r24, 0x00	; 0
+ 662:	54 dd       	rcall	.-1368   	; 0x10c <digitalWrite>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:40
+        }
+        
+        if ((incoming2 & IO_RI) == 0x00) { // If the RI bit is clear
+ 664:	c3 ff       	sbrs	r28, 3
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:41
+          RI_FLAG = false; // Clear the RI flag
+ 666:	10 92 22 01 	sts	0x0122, r1	; 0x800122 <RI_FLAG>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:44
+        }
+        
+        LOW_POWER_MODE = ((incoming2 & IO_LOW_PWR) == IO_LOW_PWR); // Update low power mode
+ 66a:	86 e0       	ldi	r24, 0x06	; 6
+ 66c:	d6 95       	lsr	r29
+ 66e:	c7 95       	ror	r28
+ 670:	8a 95       	dec	r24
+ 672:	e1 f7       	brne	.-8      	; 0x66c <receiveEvent(int)+0x54>
+ 674:	c1 70       	andi	r28, 0x01	; 1
+ 676:	c0 93 2b 01 	sts	0x012B, r28	; 0x80012b <LOW_POWER_MODE>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:46
+      }
+      if (numberOfBytesReceived > 2) // Did we receive any unexpected extra data?
+ 67a:	02 30       	cpi	r16, 0x02	; 2
+ 67c:	11 05       	cpc	r17, r1
+ 67e:	49 f0       	breq	.+18     	; 0x692 <receiveEvent(int)+0x7a>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:48
+      {
+        for (int i = 2; i < numberOfBytesReceived; i++) // If we did, mop up the extra bytes - hopefully redundant?!
+ 680:	c2 e0       	ldi	r28, 0x02	; 2
+ 682:	d0 e0       	ldi	r29, 0x00	; 0
+read():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:879
+ 684:	8f ec       	ldi	r24, 0xCF	; 207
+ 686:	91 e0       	ldi	r25, 0x01	; 1
+ 688:	b6 de       	rcall	.-660    	; 0x3f6 <i2c_tinyS::read()>
+receiveEvent():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:48
+ 68a:	21 96       	adiw	r28, 0x01	; 1
+ 68c:	0c 17       	cp	r16, r28
+ 68e:	1d 07       	cpc	r17, r29
+ 690:	c9 f7       	brne	.-14     	; 0x684 <receiveEvent(int)+0x6c>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:78
+        }
+      }
+    }
+  }
+  
+  last_activity = millis(); // Update last_activity
+ 692:	a2 dd       	rcall	.-1212   	; 0x1d8 <millis>
+ 694:	60 93 27 01 	sts	0x0127, r22	; 0x800127 <last_activity>
+ 698:	70 93 28 01 	sts	0x0128, r23	; 0x800128 <last_activity+0x1>
+ 69c:	80 93 29 01 	sts	0x0129, r24	; 0x800129 <last_activity+0x2>
+ 6a0:	90 93 2a 01 	sts	0x012A, r25	; 0x80012a <last_activity+0x3>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:79
+}
+ 6a4:	df 91       	pop	r29
+ 6a6:	cf 91       	pop	r28
+ 6a8:	1f 91       	pop	r17
+ 6aa:	0f 91       	pop	r16
+ 6ac:	08 95       	ret
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:55
+          Wire.read();
+        }
+      }
+    }
+
+    else if (incoming == DATA_REG) { // Does the Master want to write serial data to the 9603N?
+ 6ae:	8f 3f       	cpi	r24, 0xFF	; 255
+ 6b0:	89 f4       	brne	.+34     	; 0x6d4 <receiveEvent(int)+0xbc>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:56
+      if (numberOfBytesReceived > 1) // If the Master sent any serial data, write it to the 9603 now
+ 6b2:	01 30       	cpi	r16, 0x01	; 1
+ 6b4:	11 05       	cpc	r17, r1
+ 6b6:	69 f3       	breq	.-38     	; 0x692 <receiveEvent(int)+0x7a>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:58
+      {
+        for (int i = 1; i < numberOfBytesReceived; i++)
+ 6b8:	c1 e0       	ldi	r28, 0x01	; 1
+ 6ba:	d0 e0       	ldi	r29, 0x00	; 0
+read():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:879
+ 6bc:	8f ec       	ldi	r24, 0xCF	; 207
+ 6be:	91 e0       	ldi	r25, 0x01	; 1
+ 6c0:	9a de       	rcall	.-716    	; 0x3f6 <i2c_tinyS::read()>
+receiveEvent():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:61
+        {
+          uint8_t incoming2 = Wire.read();
+          Serial.write(incoming2);
+ 6c2:	68 2f       	mov	r22, r24
+ 6c4:	8d e7       	ldi	r24, 0x7D	; 125
+ 6c6:	91 e0       	ldi	r25, 0x01	; 1
+ 6c8:	bf dd       	rcall	.-1154   	; 0x248 <HardwareSerial::write(unsigned char)>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:58
+    }
+
+    else if (incoming == DATA_REG) { // Does the Master want to write serial data to the 9603N?
+      if (numberOfBytesReceived > 1) // If the Master sent any serial data, write it to the 9603 now
+      {
+        for (int i = 1; i < numberOfBytesReceived; i++)
+ 6ca:	21 96       	adiw	r28, 0x01	; 1
+ 6cc:	c0 17       	cp	r28, r16
+ 6ce:	d1 07       	cpc	r29, r17
+ 6d0:	ac f3       	brlt	.-22     	; 0x6bc <receiveEvent(int)+0xa4>
+ 6d2:	df cf       	rjmp	.-66     	; 0x692 <receiveEvent(int)+0x7a>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:66
+          Serial.write(incoming2);
+        }
+      }
+    }
+
+    else if (incoming == LEN_REG) { // Does the Master want to read the available serial length?
+ 6d4:	8d 3f       	cpi	r24, 0xFD	; 253
+ 6d6:	e9 f6       	brne	.-70     	; 0x692 <receiveEvent(int)+0x7a>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:68
+      // We shouldn't need to do anything (except update last_address)
+      if (numberOfBytesReceived > 1) // Did we receive any unexpected extra data?
+ 6d8:	01 30       	cpi	r16, 0x01	; 1
+ 6da:	11 05       	cpc	r17, r1
+ 6dc:	d1 f2       	breq	.-76     	; 0x692 <receiveEvent(int)+0x7a>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:70
+      {
+        for (int i = 1; i < numberOfBytesReceived; i++) // If we did, mop up the extra bytes - hopefully redundant?!
+ 6de:	c1 e0       	ldi	r28, 0x01	; 1
+ 6e0:	d0 e0       	ldi	r29, 0x00	; 0
+read():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:879
+ 6e2:	8f ec       	ldi	r24, 0xCF	; 207
+ 6e4:	91 e0       	ldi	r25, 0x01	; 1
+ 6e6:	87 de       	rcall	.-754    	; 0x3f6 <i2c_tinyS::read()>
+receiveEvent():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/interrupts.ino:70
+ 6e8:	21 96       	adiw	r28, 0x01	; 1
+ 6ea:	c0 17       	cp	r28, r16
+ 6ec:	d1 07       	cpc	r29, r17
+ 6ee:	cc f3       	brlt	.-14     	; 0x6e2 <receiveEvent(int)+0xca>
+ 6f0:	d0 cf       	rjmp	.-96     	; 0x692 <receiveEvent(int)+0x7a>
+
+000006f2 <__vector_11>:
+__vector_11():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:81
+volatile unsigned long millis_timer_overflow_count = 0;
+volatile unsigned long millis_timer_millis = 0;
+static unsigned char millis_timer_fract = 0;
+
+ISR(MILLISTIMER_OVF_vect)
+{
+ 6f2:	1f 92       	push	r1
+ 6f4:	0f 92       	push	r0
+ 6f6:	0f b6       	in	r0, 0x3f	; 63
+ 6f8:	0f 92       	push	r0
+ 6fa:	11 24       	eor	r1, r1
+ 6fc:	2f 93       	push	r18
+ 6fe:	3f 93       	push	r19
+ 700:	8f 93       	push	r24
+ 702:	9f 93       	push	r25
+ 704:	af 93       	push	r26
+ 706:	bf 93       	push	r27
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:84
+  // copy these to local variables so they can be stored in registers
+  // (volatile variables must be read from memory on every access)
+  unsigned long m = millis_timer_millis;
+ 708:	80 91 31 01 	lds	r24, 0x0131	; 0x800131 <millis_timer_millis>
+ 70c:	90 91 32 01 	lds	r25, 0x0132	; 0x800132 <millis_timer_millis+0x1>
+ 710:	a0 91 33 01 	lds	r26, 0x0133	; 0x800133 <millis_timer_millis+0x2>
+ 714:	b0 91 34 01 	lds	r27, 0x0134	; 0x800134 <millis_timer_millis+0x3>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:85
+  unsigned char f = millis_timer_fract;
+ 718:	30 91 30 01 	lds	r19, 0x0130	; 0x800130 <millis_timer_fract>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:97
+    f -= FRACT_MAX;
+    m += 1;
+  }
+...rmv */
+
+  f += FRACT_INC;
+ 71c:	26 e0       	ldi	r18, 0x06	; 6
+ 71e:	23 0f       	add	r18, r19
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:99
+
+  if (f >= FRACT_MAX)
+ 720:	2d 37       	cpi	r18, 0x7D	; 125
+ 722:	68 f1       	brcs	.+90     	; 0x77e <__vector_11+0x8c>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:101
+  {
+    f -= FRACT_MAX;
+ 724:	29 e8       	ldi	r18, 0x89	; 137
+ 726:	23 0f       	add	r18, r19
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:102
+    m = m + MILLIS_INC + 1;
+ 728:	03 96       	adiw	r24, 0x03	; 3
+ 72a:	a1 1d       	adc	r26, r1
+ 72c:	b1 1d       	adc	r27, r1
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:109
+  else
+  {
+    m += MILLIS_INC;
+  }
+
+  millis_timer_fract = f;
+ 72e:	20 93 30 01 	sts	0x0130, r18	; 0x800130 <millis_timer_fract>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:110
+  millis_timer_millis = m;
+ 732:	80 93 31 01 	sts	0x0131, r24	; 0x800131 <millis_timer_millis>
+ 736:	90 93 32 01 	sts	0x0132, r25	; 0x800132 <millis_timer_millis+0x1>
+ 73a:	a0 93 33 01 	sts	0x0133, r26	; 0x800133 <millis_timer_millis+0x2>
+ 73e:	b0 93 34 01 	sts	0x0134, r27	; 0x800134 <millis_timer_millis+0x3>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:111
+  millis_timer_overflow_count++;
+ 742:	80 91 2c 01 	lds	r24, 0x012C	; 0x80012c <millis_timer_overflow_count>
+ 746:	90 91 2d 01 	lds	r25, 0x012D	; 0x80012d <millis_timer_overflow_count+0x1>
+ 74a:	a0 91 2e 01 	lds	r26, 0x012E	; 0x80012e <millis_timer_overflow_count+0x2>
+ 74e:	b0 91 2f 01 	lds	r27, 0x012F	; 0x80012f <millis_timer_overflow_count+0x3>
+ 752:	01 96       	adiw	r24, 0x01	; 1
+ 754:	a1 1d       	adc	r26, r1
+ 756:	b1 1d       	adc	r27, r1
+ 758:	80 93 2c 01 	sts	0x012C, r24	; 0x80012c <millis_timer_overflow_count>
+ 75c:	90 93 2d 01 	sts	0x012D, r25	; 0x80012d <millis_timer_overflow_count+0x1>
+ 760:	a0 93 2e 01 	sts	0x012E, r26	; 0x80012e <millis_timer_overflow_count+0x2>
+ 764:	b0 93 2f 01 	sts	0x012F, r27	; 0x80012f <millis_timer_overflow_count+0x3>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:112
+}
+ 768:	bf 91       	pop	r27
+ 76a:	af 91       	pop	r26
+ 76c:	9f 91       	pop	r25
+ 76e:	8f 91       	pop	r24
+ 770:	3f 91       	pop	r19
+ 772:	2f 91       	pop	r18
+ 774:	0f 90       	pop	r0
+ 776:	0f be       	out	0x3f, r0	; 63
+ 778:	0f 90       	pop	r0
+ 77a:	1f 90       	pop	r1
+ 77c:	18 95       	reti
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:106
+    f -= FRACT_MAX;
+    m = m + MILLIS_INC + 1;
+  }
+  else
+  {
+    m += MILLIS_INC;
+ 77e:	02 96       	adiw	r24, 0x02	; 2
+ 780:	a1 1d       	adc	r26, r1
+ 782:	b1 1d       	adc	r27, r1
+ 784:	d4 cf       	rjmp	.-88     	; 0x72e <__vector_11+0x3c>
+
+00000786 <__vector_1>:
+__vector_1():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/WInterrupts.c:124
+  }
+}
+
+#if NUMBER_EXTERNAL_INTERRUPTS >= 1
+ISR(EXTERNAL_INTERRUPT_0_vect)
+{
+ 786:	1f 92       	push	r1
+ 788:	0f 92       	push	r0
+ 78a:	0f b6       	in	r0, 0x3f	; 63
+ 78c:	0f 92       	push	r0
+ 78e:	11 24       	eor	r1, r1
+ 790:	2f 93       	push	r18
+ 792:	3f 93       	push	r19
+ 794:	4f 93       	push	r20
+ 796:	5f 93       	push	r21
+ 798:	6f 93       	push	r22
+ 79a:	7f 93       	push	r23
+ 79c:	8f 93       	push	r24
+ 79e:	9f 93       	push	r25
+ 7a0:	af 93       	push	r26
+ 7a2:	bf 93       	push	r27
+ 7a4:	ef 93       	push	r30
+ 7a6:	ff 93       	push	r31
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/WInterrupts.c:125
+  if(intFunc[EXTERNAL_INTERRUPT_0])
+ 7a8:	80 91 24 01 	lds	r24, 0x0124	; 0x800124 <intFunc>
+ 7ac:	90 91 25 01 	lds	r25, 0x0125	; 0x800125 <intFunc+0x1>
+ 7b0:	89 2b       	or	r24, r25
+ 7b2:	29 f0       	breq	.+10     	; 0x7be <__vector_1+0x38>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/WInterrupts.c:126
+    intFunc[EXTERNAL_INTERRUPT_0]();
+ 7b4:	e0 91 24 01 	lds	r30, 0x0124	; 0x800124 <intFunc>
+ 7b8:	f0 91 25 01 	lds	r31, 0x0125	; 0x800125 <intFunc+0x1>
+ 7bc:	09 95       	icall
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/WInterrupts.c:127
+}
+ 7be:	ff 91       	pop	r31
+ 7c0:	ef 91       	pop	r30
+ 7c2:	bf 91       	pop	r27
+ 7c4:	af 91       	pop	r26
+ 7c6:	9f 91       	pop	r25
+ 7c8:	8f 91       	pop	r24
+ 7ca:	7f 91       	pop	r23
+ 7cc:	6f 91       	pop	r22
+ 7ce:	5f 91       	pop	r21
+ 7d0:	4f 91       	pop	r20
+ 7d2:	3f 91       	pop	r19
+ 7d4:	2f 91       	pop	r18
+ 7d6:	0f 90       	pop	r0
+ 7d8:	0f be       	out	0x3f, r0	; 63
+ 7da:	0f 90       	pop	r0
+ 7dc:	1f 90       	pop	r1
+ 7de:	18 95       	reti
+
+000007e0 <__vector_26>:
+__vector_26():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:144
+
+//#if defined(SIG_USART1_RECV)
+#if defined(USART1_RX_vect)
+  //ISR(SIG_USART1_RECV)
+  ISR(USART1_RX_vect)
+  {
+ 7e0:	1f 92       	push	r1
+ 7e2:	0f 92       	push	r0
+ 7e4:	0f b6       	in	r0, 0x3f	; 63
+ 7e6:	0f 92       	push	r0
+ 7e8:	11 24       	eor	r1, r1
+ 7ea:	2f 93       	push	r18
+ 7ec:	3f 93       	push	r19
+ 7ee:	4f 93       	push	r20
+ 7f0:	6f 93       	push	r22
+ 7f2:	7f 93       	push	r23
+ 7f4:	8f 93       	push	r24
+ 7f6:	9f 93       	push	r25
+ 7f8:	ef 93       	push	r30
+ 7fa:	ff 93       	push	r31
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:145
+    unsigned char c = UDR1;
+ 7fc:	40 91 90 00 	lds	r20, 0x0090	; 0x800090 <__EEPROM_REGION_LENGTH__+0x7f0090>
+store_char():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:71
+  ring_buffer rx_buffer3  =  { { 0 }, 0, 0 };
+#endif
+
+inline void store_char(unsigned char c, ring_buffer *rx_buffer)
+{
+  int i = (unsigned int)(rx_buffer->head + 1) % RX_BUFFER_SIZE;
+ 800:	20 91 55 01 	lds	r18, 0x0155	; 0x800155 <rx_buffer1+0x20>
+ 804:	30 91 56 01 	lds	r19, 0x0156	; 0x800156 <rx_buffer1+0x21>
+ 808:	c9 01       	movw	r24, r18
+ 80a:	01 96       	adiw	r24, 0x01	; 1
+ 80c:	8f 71       	andi	r24, 0x1F	; 31
+ 80e:	99 27       	eor	r25, r25
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:77
+
+  // if we should be storing the received character into the location
+  // just before the tail (meaning that the head would advance to the
+  // current location of the tail), we're about to overflow the buffer
+  // and so we don't write the character or advance the head.
+  if (i != rx_buffer->tail) {
+ 810:	60 91 57 01 	lds	r22, 0x0157	; 0x800157 <rx_buffer1+0x22>
+ 814:	70 91 58 01 	lds	r23, 0x0158	; 0x800158 <rx_buffer1+0x23>
+ 818:	86 17       	cp	r24, r22
+ 81a:	97 07       	cpc	r25, r23
+ 81c:	41 f0       	breq	.+16     	; 0x82e <__vector_26+0x4e>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:78
+    rx_buffer->buffer[rx_buffer->head] = c;
+ 81e:	2b 5c       	subi	r18, 0xCB	; 203
+ 820:	3e 4f       	sbci	r19, 0xFE	; 254
+ 822:	f9 01       	movw	r30, r18
+ 824:	40 83       	st	Z, r20
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:79
+    rx_buffer->head = i;
+ 826:	90 93 56 01 	sts	0x0156, r25	; 0x800156 <rx_buffer1+0x21>
+ 82a:	80 93 55 01 	sts	0x0155, r24	; 0x800155 <rx_buffer1+0x20>
+__vector_26():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:147
+  //ISR(SIG_USART1_RECV)
+  ISR(USART1_RX_vect)
+  {
+    unsigned char c = UDR1;
+    store_char(c, &rx_buffer1);
+  }
+ 82e:	ff 91       	pop	r31
+ 830:	ef 91       	pop	r30
+ 832:	9f 91       	pop	r25
+ 834:	8f 91       	pop	r24
+ 836:	7f 91       	pop	r23
+ 838:	6f 91       	pop	r22
+ 83a:	4f 91       	pop	r20
+ 83c:	3f 91       	pop	r19
+ 83e:	2f 91       	pop	r18
+ 840:	0f 90       	pop	r0
+ 842:	0f be       	out	0x3f, r0	; 63
+ 844:	0f 90       	pop	r0
+ 846:	1f 90       	pop	r1
+ 848:	18 95       	reti
+
+0000084a <__vector_22>:
+__vector_22():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:112
+//#elif defined(SIG_USART_RECV)
+#elif defined(USART0_RX_vect)
+  // fixed by Mark Sproul this is on the 644/644p
+  //ISR(SIG_USART_RECV)
+  ISR(USART0_RX_vect)
+  {
+ 84a:	1f 92       	push	r1
+ 84c:	0f 92       	push	r0
+ 84e:	0f b6       	in	r0, 0x3f	; 63
+ 850:	0f 92       	push	r0
+ 852:	11 24       	eor	r1, r1
+ 854:	2f 93       	push	r18
+ 856:	3f 93       	push	r19
+ 858:	4f 93       	push	r20
+ 85a:	6f 93       	push	r22
+ 85c:	7f 93       	push	r23
+ 85e:	8f 93       	push	r24
+ 860:	9f 93       	push	r25
+ 862:	ef 93       	push	r30
+ 864:	ff 93       	push	r31
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:114
+  #if defined(UDR0)
+    unsigned char c  =  UDR0;
+ 866:	40 91 80 00 	lds	r20, 0x0080	; 0x800080 <__EEPROM_REGION_LENGTH__+0x7f0080>
+store_char():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:71
+  ring_buffer rx_buffer3  =  { { 0 }, 0, 0 };
+#endif
+
+inline void store_char(unsigned char c, ring_buffer *rx_buffer)
+{
+  int i = (unsigned int)(rx_buffer->head + 1) % RX_BUFFER_SIZE;
+ 86a:	20 91 79 01 	lds	r18, 0x0179	; 0x800179 <rx_buffer+0x20>
+ 86e:	30 91 7a 01 	lds	r19, 0x017A	; 0x80017a <rx_buffer+0x21>
+ 872:	c9 01       	movw	r24, r18
+ 874:	01 96       	adiw	r24, 0x01	; 1
+ 876:	8f 71       	andi	r24, 0x1F	; 31
+ 878:	99 27       	eor	r25, r25
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:77
+
+  // if we should be storing the received character into the location
+  // just before the tail (meaning that the head would advance to the
+  // current location of the tail), we're about to overflow the buffer
+  // and so we don't write the character or advance the head.
+  if (i != rx_buffer->tail) {
+ 87a:	60 91 7b 01 	lds	r22, 0x017B	; 0x80017b <rx_buffer+0x22>
+ 87e:	70 91 7c 01 	lds	r23, 0x017C	; 0x80017c <rx_buffer+0x23>
+ 882:	86 17       	cp	r24, r22
+ 884:	97 07       	cpc	r25, r23
+ 886:	41 f0       	breq	.+16     	; 0x898 <__vector_22+0x4e>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:78
+    rx_buffer->buffer[rx_buffer->head] = c;
+ 888:	27 5a       	subi	r18, 0xA7	; 167
+ 88a:	3e 4f       	sbci	r19, 0xFE	; 254
+ 88c:	f9 01       	movw	r30, r18
+ 88e:	40 83       	st	Z, r20
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:79
+    rx_buffer->head = i;
+ 890:	90 93 7a 01 	sts	0x017A, r25	; 0x80017a <rx_buffer+0x21>
+ 894:	80 93 79 01 	sts	0x0179, r24	; 0x800179 <rx_buffer+0x20>
+__vector_22():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:121
+    unsigned char c  =  UDR;  //  atmega8, atmega32
+  #else
+    #error UDR not defined
+  #endif
+    store_char(c, &rx_buffer);
+  }
+ 898:	ff 91       	pop	r31
+ 89a:	ef 91       	pop	r30
+ 89c:	9f 91       	pop	r25
+ 89e:	8f 91       	pop	r24
+ 8a0:	7f 91       	pop	r23
+ 8a2:	6f 91       	pop	r22
+ 8a4:	4f 91       	pop	r20
+ 8a6:	3f 91       	pop	r19
+ 8a8:	2f 91       	pop	r18
+ 8aa:	0f 90       	pop	r0
+ 8ac:	0f be       	out	0x3f, r0	; 63
+ 8ae:	0f 90       	pop	r0
+ 8b0:	1f 90       	pop	r1
+ 8b2:	18 95       	reti
+
+000008b4 <__vector_29>:
+__vector_29():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:168
+        }
+    }
+    TWSCRB = (B0011 | TWI_HIGH_NOISE_MODE);
+}
+
+ISR(TWI_SLAVE_vect) {
+ 8b4:	1f 92       	push	r1
+ 8b6:	0f 92       	push	r0
+ 8b8:	0f b6       	in	r0, 0x3f	; 63
+ 8ba:	0f 92       	push	r0
+ 8bc:	11 24       	eor	r1, r1
+ 8be:	2f 93       	push	r18
+ 8c0:	3f 93       	push	r19
+ 8c2:	4f 93       	push	r20
+ 8c4:	5f 93       	push	r21
+ 8c6:	6f 93       	push	r22
+ 8c8:	7f 93       	push	r23
+ 8ca:	8f 93       	push	r24
+ 8cc:	9f 93       	push	r25
+ 8ce:	af 93       	push	r26
+ 8d0:	bf 93       	push	r27
+ 8d2:	cf 93       	push	r28
+ 8d4:	ef 93       	push	r30
+ 8d6:	ff 93       	push	r31
+i2c_isr_handler():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:105
+    return i2c->Buffer[i2c->rxBufferIndex];
+}
+
+void i2c_isr_handler() {
+    struct i2cStruct *i2c = &(i2c_tinyS::i2cData);
+    byte status = TWSSRA;
+ 8d8:	c0 91 a3 00 	lds	r28, 0x00A3	; 0x8000a3 <__EEPROM_REGION_LENGTH__+0x7f00a3>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:106
+    if ((status & (_BV(TWC) | _BV(TWBE)))) {
+ 8dc:	8c 2f       	mov	r24, r28
+ 8de:	8c 70       	andi	r24, 0x0C	; 12
+ 8e0:	19 f1       	breq	.+70     	; 0x928 <__vector_29+0x74>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:107
+        i2c->startCount = -1;
+ 8e2:	8f ef       	ldi	r24, 0xFF	; 255
+ 8e4:	80 93 c4 01 	sts	0x01C4, r24	; 0x8001c4 <i2c_tinyS::i2cData+0x28>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:108
+        CLEAR_TENBIT;
+ 8e8:	80 91 c5 01 	lds	r24, 0x01C5	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+ 8ec:	90 91 c6 01 	lds	r25, 0x01C6	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ 8f0:	9f 77       	andi	r25, 0x7F	; 127
+ 8f2:	90 93 c6 01 	sts	0x01C6, r25	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ 8f6:	80 93 c5 01 	sts	0x01C5, r24	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:109
+        TWSSRA |= (_BV(TWASIF) | _BV(TWDIF) | _BV(TWBE));
+ 8fa:	80 91 a3 00 	lds	r24, 0x00A3	; 0x8000a3 <__EEPROM_REGION_LENGTH__+0x7f00a3>
+ 8fe:	84 6c       	ori	r24, 0xC4	; 196
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:147
+                    i2c->user_onReceive(i2c->rxBufferLength);
+                }
+            }
+            i2c->startCount = -1;
+            CLEAR_TENBIT;
+            TWSSRA = _BV(TWASIF);
+ 900:	80 93 a3 00 	sts	0x00A3, r24	; 0x8000a3 <__EEPROM_REGION_LENGTH__+0x7f00a3>
+__vector_29():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:172
+
+ISR(TWI_SLAVE_vect) {
+    I2C_INTR_FLAG_ON;
+    i2c_isr_handler();
+    I2C_INTR_FLAG_OFF;
+}
+ 904:	ff 91       	pop	r31
+ 906:	ef 91       	pop	r30
+ 908:	cf 91       	pop	r28
+ 90a:	bf 91       	pop	r27
+ 90c:	af 91       	pop	r26
+ 90e:	9f 91       	pop	r25
+ 910:	8f 91       	pop	r24
+ 912:	7f 91       	pop	r23
+ 914:	6f 91       	pop	r22
+ 916:	5f 91       	pop	r21
+ 918:	4f 91       	pop	r20
+ 91a:	3f 91       	pop	r19
+ 91c:	2f 91       	pop	r18
+ 91e:	0f 90       	pop	r0
+ 920:	0f be       	out	0x3f, r0	; 63
+ 922:	0f 90       	pop	r0
+ 924:	1f 90       	pop	r1
+ 926:	18 95       	reti
+i2c_isr_handler():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:112
+        i2c->startCount = -1;
+        CLEAR_TENBIT;
+        TWSSRA |= (_BV(TWASIF) | _BV(TWDIF) | _BV(TWBE));
+        return;
+    }
+    if ((status & _BV(TWASIF)) || IS_TENBIT) {
+ 928:	c6 fd       	sbrc	r28, 6
+ 92a:	28 c0       	rjmp	.+80     	; 0x97c <__vector_29+0xc8>
+ 92c:	80 91 c5 01 	lds	r24, 0x01C5	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+ 930:	90 91 c6 01 	lds	r25, 0x01C6	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ 934:	97 fd       	sbrc	r25, 7
+ 936:	22 c0       	rjmp	.+68     	; 0x97c <__vector_29+0xc8>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:150
+            i2c->startCount = -1;
+            CLEAR_TENBIT;
+            TWSSRA = _BV(TWASIF);
+            return;
+        }
+    } else if ((status & _BV(TWDIF))) {
+ 938:	c7 ff       	sbrs	r28, 7
+ 93a:	6f c0       	rjmp	.+222    	; 0xa1a <__vector_29+0x166>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:151
+        if ((status & _BV(TWDIR))) {
+ 93c:	c1 ff       	sbrs	r28, 1
+ 93e:	af c0       	rjmp	.+350    	; 0xa9e <__vector_29+0x1ea>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:152
+            if (i2c->txBufferIndex < i2c->txBufferLength) TWSD = i2c->Buffer[i2c->txBufferIndex++];
+ 940:	20 91 c0 01 	lds	r18, 0x01C0	; 0x8001c0 <i2c_tinyS::i2cData+0x24>
+ 944:	30 91 c1 01 	lds	r19, 0x01C1	; 0x8001c1 <i2c_tinyS::i2cData+0x25>
+ 948:	80 91 c2 01 	lds	r24, 0x01C2	; 0x8001c2 <i2c_tinyS::i2cData+0x26>
+ 94c:	90 91 c3 01 	lds	r25, 0x01C3	; 0x8001c3 <i2c_tinyS::i2cData+0x27>
+ 950:	28 17       	cp	r18, r24
+ 952:	39 07       	cpc	r19, r25
+ 954:	08 f0       	brcs	.+2      	; 0x958 <__vector_29+0xa4>
+ 956:	a1 c0       	rjmp	.+322    	; 0xa9a <__vector_29+0x1e6>
+ 958:	80 91 c0 01 	lds	r24, 0x01C0	; 0x8001c0 <i2c_tinyS::i2cData+0x24>
+ 95c:	90 91 c1 01 	lds	r25, 0x01C1	; 0x8001c1 <i2c_tinyS::i2cData+0x25>
+ 960:	9c 01       	movw	r18, r24
+ 962:	2f 5f       	subi	r18, 0xFF	; 255
+ 964:	3f 4f       	sbci	r19, 0xFF	; 255
+ 966:	30 93 c1 01 	sts	0x01C1, r19	; 0x8001c1 <i2c_tinyS::i2cData+0x25>
+ 96a:	20 93 c0 01 	sts	0x01C0, r18	; 0x8001c0 <i2c_tinyS::i2cData+0x24>
+ 96e:	84 56       	subi	r24, 0x64	; 100
+ 970:	9e 4f       	sbci	r25, 0xFE	; 254
+ 972:	fc 01       	movw	r30, r24
+ 974:	80 81       	ld	r24, Z
+ 976:	80 93 a0 00 	sts	0x00A0, r24	; 0x8000a0 <__EEPROM_REGION_LENGTH__+0x7f00a0>
+ 97a:	4f c0       	rjmp	.+158    	; 0xa1a <__vector_29+0x166>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:113
+        CLEAR_TENBIT;
+        TWSSRA |= (_BV(TWASIF) | _BV(TWDIF) | _BV(TWBE));
+        return;
+    }
+    if ((status & _BV(TWASIF)) || IS_TENBIT) {
+        if ((status & _BV(TWAS))) {
+ 97c:	c0 ff       	sbrs	r28, 0
+ 97e:	66 c0       	rjmp	.+204    	; 0xa4c <__vector_29+0x198>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:114
+            if (IS_TENBIT) i2c->Addr = (((i2c->Addr & B110) << 7) | TWSD);
+ 980:	80 91 c5 01 	lds	r24, 0x01C5	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+ 984:	90 91 c6 01 	lds	r25, 0x01C6	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ 988:	97 ff       	sbrs	r25, 7
+ 98a:	29 c0       	rjmp	.+82     	; 0x9de <__vector_29+0x12a>
+ 98c:	80 91 c5 01 	lds	r24, 0x01C5	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+ 990:	90 91 c6 01 	lds	r25, 0x01C6	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ 994:	20 91 a0 00 	lds	r18, 0x00A0	; 0x8000a0 <__EEPROM_REGION_LENGTH__+0x7f00a0>
+ 998:	96 95       	lsr	r25
+ 99a:	98 2f       	mov	r25, r24
+ 99c:	88 27       	eor	r24, r24
+ 99e:	97 95       	ror	r25
+ 9a0:	87 95       	ror	r24
+ 9a2:	88 27       	eor	r24, r24
+ 9a4:	93 70       	andi	r25, 0x03	; 3
+ 9a6:	82 2b       	or	r24, r18
+ 9a8:	90 93 c6 01 	sts	0x01C6, r25	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ 9ac:	80 93 c5 01 	sts	0x01C5, r24	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:124
+                    SET_TENBIT;
+                    TWSCRB = (B0011 | TWI_HIGH_NOISE_MODE);
+                    return;
+                }
+            }
+            if (i2c->user_onAddrReceive != (void *)NULL) {
+ 9b0:	e0 91 c7 01 	lds	r30, 0x01C7	; 0x8001c7 <i2c_tinyS::i2cData+0x2b>
+ 9b4:	f0 91 c8 01 	lds	r31, 0x01C8	; 0x8001c8 <i2c_tinyS::i2cData+0x2c>
+ 9b8:	30 97       	sbiw	r30, 0x00	; 0
+ 9ba:	89 f1       	breq	.+98     	; 0xa1e <__vector_29+0x16a>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:125
+                i2c->rxBufferIndex = 0;
+ 9bc:	10 92 bd 01 	sts	0x01BD, r1	; 0x8001bd <i2c_tinyS::i2cData+0x21>
+ 9c0:	10 92 bc 01 	sts	0x01BC, r1	; 0x8001bc <i2c_tinyS::i2cData+0x20>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:126
+                if (!i2c->user_onAddrReceive(i2c->Addr, i2c->startCount)) {
+ 9c4:	60 91 c4 01 	lds	r22, 0x01C4	; 0x8001c4 <i2c_tinyS::i2cData+0x28>
+ 9c8:	80 91 c5 01 	lds	r24, 0x01C5	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+ 9cc:	90 91 c6 01 	lds	r25, 0x01C6	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ 9d0:	09 95       	icall
+ 9d2:	81 11       	cpse	r24, r1
+ 9d4:	24 c0       	rjmp	.+72     	; 0xa1e <__vector_29+0x16a>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:127
+                    TWSCRB = (B0111 | TWI_HIGH_NOISE_MODE);
+ 9d6:	87 e0       	ldi	r24, 0x07	; 7
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:165
+                TWSCRB = (B0110 | TWI_HIGH_NOISE_MODE);
+                return;
+            }
+        }
+    }
+    TWSCRB = (B0011 | TWI_HIGH_NOISE_MODE);
+ 9d8:	80 93 a4 00 	sts	0x00A4, r24	; 0x8000a4 <__EEPROM_REGION_LENGTH__+0x7f00a4>
+ 9dc:	93 cf       	rjmp	.-218    	; 0x904 <__vector_29+0x50>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:116
+    }
+    if ((status & _BV(TWASIF)) || IS_TENBIT) {
+        if ((status & _BV(TWAS))) {
+            if (IS_TENBIT) i2c->Addr = (((i2c->Addr & B110) << 7) | TWSD);
+            else {
+                i2c->Addr = TWSD;
+ 9de:	80 91 a0 00 	lds	r24, 0x00A0	; 0x8000a0 <__EEPROM_REGION_LENGTH__+0x7f00a0>
+ 9e2:	90 e0       	ldi	r25, 0x00	; 0
+ 9e4:	90 93 c6 01 	sts	0x01C6, r25	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ 9e8:	80 93 c5 01 	sts	0x01C5, r24	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:117
+                i2c->startCount++;
+ 9ec:	80 91 c4 01 	lds	r24, 0x01C4	; 0x8001c4 <i2c_tinyS::i2cData+0x28>
+ 9f0:	8f 5f       	subi	r24, 0xFF	; 255
+ 9f2:	80 93 c4 01 	sts	0x01C4, r24	; 0x8001c4 <i2c_tinyS::i2cData+0x28>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:118
+                if ((i2c->Addr & B11111001) == B11110000) {
+ 9f6:	80 91 c5 01 	lds	r24, 0x01C5	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+ 9fa:	90 91 c6 01 	lds	r25, 0x01C6	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ 9fe:	89 7f       	andi	r24, 0xF9	; 249
+ a00:	99 27       	eor	r25, r25
+ a02:	80 3f       	cpi	r24, 0xF0	; 240
+ a04:	91 05       	cpc	r25, r1
+ a06:	a1 f6       	brne	.-88     	; 0x9b0 <__vector_29+0xfc>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:119
+                    SET_TENBIT;
+ a08:	80 91 c5 01 	lds	r24, 0x01C5	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+ a0c:	90 91 c6 01 	lds	r25, 0x01C6	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ a10:	90 68       	ori	r25, 0x80	; 128
+ a12:	90 93 c6 01 	sts	0x01C6, r25	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ a16:	80 93 c5 01 	sts	0x01C5, r24	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:165
+                TWSCRB = (B0110 | TWI_HIGH_NOISE_MODE);
+                return;
+            }
+        }
+    }
+    TWSCRB = (B0011 | TWI_HIGH_NOISE_MODE);
+ a1a:	83 e0       	ldi	r24, 0x03	; 3
+ a1c:	dd cf       	rjmp	.-70     	; 0x9d8 <__vector_29+0x124>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:131
+                if (!i2c->user_onAddrReceive(i2c->Addr, i2c->startCount)) {
+                    TWSCRB = (B0111 | TWI_HIGH_NOISE_MODE);
+                    return;
+                }
+            }
+            if ((status & _BV(TWDIR))) {
+ a1e:	c1 ff       	sbrs	r28, 1
+ a20:	10 c0       	rjmp	.+32     	; 0xa42 <__vector_29+0x18e>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:132
+                i2c->txBufferLength = 0;
+ a22:	10 92 c3 01 	sts	0x01C3, r1	; 0x8001c3 <i2c_tinyS::i2cData+0x27>
+ a26:	10 92 c2 01 	sts	0x01C2, r1	; 0x8001c2 <i2c_tinyS::i2cData+0x26>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:133
+                if (i2c->user_onRequest != (void *)NULL) i2c->user_onRequest();
+ a2a:	e0 91 cb 01 	lds	r30, 0x01CB	; 0x8001cb <i2c_tinyS::i2cData+0x2f>
+ a2e:	f0 91 cc 01 	lds	r31, 0x01CC	; 0x8001cc <i2c_tinyS::i2cData+0x30>
+ a32:	30 97       	sbiw	r30, 0x00	; 0
+ a34:	09 f0       	breq	.+2      	; 0xa38 <__vector_29+0x184>
+ a36:	09 95       	icall
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:134
+                i2c->txBufferIndex = 0;
+ a38:	10 92 c1 01 	sts	0x01C1, r1	; 0x8001c1 <i2c_tinyS::i2cData+0x25>
+ a3c:	10 92 c0 01 	sts	0x01C0, r1	; 0x8001c0 <i2c_tinyS::i2cData+0x24>
+ a40:	ec cf       	rjmp	.-40     	; 0xa1a <__vector_29+0x166>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:135
+            } else i2c->rxBufferLength = 0;
+ a42:	10 92 bf 01 	sts	0x01BF, r1	; 0x8001bf <i2c_tinyS::i2cData+0x23>
+ a46:	10 92 be 01 	sts	0x01BE, r1	; 0x8001be <i2c_tinyS::i2cData+0x22>
+ a4a:	e7 cf       	rjmp	.-50     	; 0xa1a <__vector_29+0x166>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:137
+        } else {
+            if ((status & _BV(TWDIR))) {
+ a4c:	c1 ff       	sbrs	r28, 1
+ a4e:	15 c0       	rjmp	.+42     	; 0xa7a <__vector_29+0x1c6>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:138
+                if (i2c->user_onStop != (void *)NULL) i2c->user_onStop();
+ a50:	e0 91 cd 01 	lds	r30, 0x01CD	; 0x8001cd <i2c_tinyS::i2cData+0x31>
+ a54:	f0 91 ce 01 	lds	r31, 0x01CE	; 0x8001ce <i2c_tinyS::i2cData+0x32>
+ a58:	30 97       	sbiw	r30, 0x00	; 0
+ a5a:	09 f0       	breq	.+2      	; 0xa5e <__vector_29+0x1aa>
+ a5c:	09 95       	icall
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:145
+                if (i2c->user_onReceive != (void *)NULL) {
+                    i2c->rxBufferIndex = 0;
+                    i2c->user_onReceive(i2c->rxBufferLength);
+                }
+            }
+            i2c->startCount = -1;
+ a5e:	8f ef       	ldi	r24, 0xFF	; 255
+ a60:	80 93 c4 01 	sts	0x01C4, r24	; 0x8001c4 <i2c_tinyS::i2cData+0x28>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:146
+            CLEAR_TENBIT;
+ a64:	80 91 c5 01 	lds	r24, 0x01C5	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+ a68:	90 91 c6 01 	lds	r25, 0x01C6	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ a6c:	9f 77       	andi	r25, 0x7F	; 127
+ a6e:	90 93 c6 01 	sts	0x01C6, r25	; 0x8001c6 <i2c_tinyS::i2cData+0x2a>
+ a72:	80 93 c5 01 	sts	0x01C5, r24	; 0x8001c5 <i2c_tinyS::i2cData+0x29>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:147
+            TWSSRA = _BV(TWASIF);
+ a76:	80 e4       	ldi	r24, 0x40	; 64
+ a78:	43 cf       	rjmp	.-378    	; 0x900 <__vector_29+0x4c>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:140
+            } else i2c->rxBufferLength = 0;
+        } else {
+            if ((status & _BV(TWDIR))) {
+                if (i2c->user_onStop != (void *)NULL) i2c->user_onStop();
+            } else {
+                if (i2c->user_onReceive != (void *)NULL) {
+ a7a:	e0 91 c9 01 	lds	r30, 0x01C9	; 0x8001c9 <i2c_tinyS::i2cData+0x2d>
+ a7e:	f0 91 ca 01 	lds	r31, 0x01CA	; 0x8001ca <i2c_tinyS::i2cData+0x2e>
+ a82:	30 97       	sbiw	r30, 0x00	; 0
+ a84:	61 f3       	breq	.-40     	; 0xa5e <__vector_29+0x1aa>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:141
+                    i2c->rxBufferIndex = 0;
+ a86:	10 92 bd 01 	sts	0x01BD, r1	; 0x8001bd <i2c_tinyS::i2cData+0x21>
+ a8a:	10 92 bc 01 	sts	0x01BC, r1	; 0x8001bc <i2c_tinyS::i2cData+0x20>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:142
+                    i2c->user_onReceive(i2c->rxBufferLength);
+ a8e:	80 91 be 01 	lds	r24, 0x01BE	; 0x8001be <i2c_tinyS::i2cData+0x22>
+ a92:	90 91 bf 01 	lds	r25, 0x01BF	; 0x8001bf <i2c_tinyS::i2cData+0x23>
+ a96:	09 95       	icall
+ a98:	e2 cf       	rjmp	.-60     	; 0xa5e <__vector_29+0x1aa>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:154
+        }
+    } else if ((status & _BV(TWDIF))) {
+        if ((status & _BV(TWDIR))) {
+            if (i2c->txBufferIndex < i2c->txBufferLength) TWSD = i2c->Buffer[i2c->txBufferIndex++];
+            else {
+                TWSCRB = (B0010 | TWI_HIGH_NOISE_MODE);
+ a9a:	82 e0       	ldi	r24, 0x02	; 2
+ a9c:	9d cf       	rjmp	.-198    	; 0x9d8 <__vector_29+0x124>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:158
+                return;
+            }
+        } else {
+            if (i2c->rxBufferLength < I2C_BUFFER_LENGTH) i2c->Buffer[i2c->rxBufferLength++] = TWSD;
+ a9e:	80 91 be 01 	lds	r24, 0x01BE	; 0x8001be <i2c_tinyS::i2cData+0x22>
+ aa2:	90 91 bf 01 	lds	r25, 0x01BF	; 0x8001bf <i2c_tinyS::i2cData+0x23>
+ aa6:	80 97       	sbiw	r24, 0x20	; 32
+ aa8:	90 f4       	brcc	.+36     	; 0xace <__vector_29+0x21a>
+ aaa:	80 91 be 01 	lds	r24, 0x01BE	; 0x8001be <i2c_tinyS::i2cData+0x22>
+ aae:	90 91 bf 01 	lds	r25, 0x01BF	; 0x8001bf <i2c_tinyS::i2cData+0x23>
+ ab2:	9c 01       	movw	r18, r24
+ ab4:	2f 5f       	subi	r18, 0xFF	; 255
+ ab6:	3f 4f       	sbci	r19, 0xFF	; 255
+ ab8:	30 93 bf 01 	sts	0x01BF, r19	; 0x8001bf <i2c_tinyS::i2cData+0x23>
+ abc:	20 93 be 01 	sts	0x01BE, r18	; 0x8001be <i2c_tinyS::i2cData+0x22>
+ ac0:	20 91 a0 00 	lds	r18, 0x00A0	; 0x8000a0 <__EEPROM_REGION_LENGTH__+0x7f00a0>
+ ac4:	84 56       	subi	r24, 0x64	; 100
+ ac6:	9e 4f       	sbci	r25, 0xFE	; 254
+ ac8:	fc 01       	movw	r30, r24
+ aca:	20 83       	st	Z, r18
+ acc:	a6 cf       	rjmp	.-180    	; 0xa1a <__vector_29+0x166>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:160
+            else {
+                TWSCRB = (B0110 | TWI_HIGH_NOISE_MODE);
+ ace:	86 e0       	ldi	r24, 0x06	; 6
+ ad0:	83 cf       	rjmp	.-250    	; 0x9d8 <__vector_29+0x124>
+
+00000ad2 <global constructors keyed to 65535_0_Qwiic_Iridium_9603N_ATtiny841.ino.cpp.o.1900>:
+_GLOBAL__I_65535_0_Qwiic_Iridium_9603N_ATtiny841.ino.cpp.o.1900():
+ ad2:	ed e7       	ldi	r30, 0x7D	; 125
+ ad4:	f1 e0       	ldi	r31, 0x01	; 1
+ ad6:	13 82       	std	Z+3, r1	; 0x03
+ ad8:	12 82       	std	Z+2, r1	; 0x02
+ ada:	88 ee       	ldi	r24, 0xE8	; 232
+ adc:	93 e0       	ldi	r25, 0x03	; 3
+ ade:	a0 e0       	ldi	r26, 0x00	; 0
+ ae0:	b0 e0       	ldi	r27, 0x00	; 0
+ ae2:	84 83       	std	Z+4, r24	; 0x04
+ ae4:	95 83       	std	Z+5, r25	; 0x05
+ ae6:	a6 83       	std	Z+6, r26	; 0x06
+ ae8:	b7 83       	std	Z+7, r27	; 0x07
+ aea:	24 e0       	ldi	r18, 0x04	; 4
+ aec:	31 e0       	ldi	r19, 0x01	; 1
+ aee:	31 83       	std	Z+1, r19	; 0x01
+ af0:	20 83       	st	Z, r18
+ af2:	29 e5       	ldi	r18, 0x59	; 89
+ af4:	31 e0       	ldi	r19, 0x01	; 1
+ af6:	35 87       	std	Z+13, r19	; 0x0d
+ af8:	24 87       	std	Z+12, r18	; 0x0c
+ afa:	22 e8       	ldi	r18, 0x82	; 130
+ afc:	30 e0       	ldi	r19, 0x00	; 0
+ afe:	37 87       	std	Z+15, r19	; 0x0f
+ b00:	26 87       	std	Z+14, r18	; 0x0e
+ b02:	21 e8       	ldi	r18, 0x81	; 129
+ b04:	30 e0       	ldi	r19, 0x00	; 0
+ b06:	31 8b       	std	Z+17, r19	; 0x11
+ b08:	20 8b       	std	Z+16, r18	; 0x10
+ b0a:	26 e8       	ldi	r18, 0x86	; 134
+ b0c:	30 e0       	ldi	r19, 0x00	; 0
+ b0e:	33 8b       	std	Z+19, r19	; 0x13
+ b10:	22 8b       	std	Z+18, r18	; 0x12
+ b12:	25 e8       	ldi	r18, 0x85	; 133
+ b14:	30 e0       	ldi	r19, 0x00	; 0
+ b16:	35 8b       	std	Z+21, r19	; 0x15
+ b18:	24 8b       	std	Z+20, r18	; 0x14
+ b1a:	24 e8       	ldi	r18, 0x84	; 132
+ b1c:	30 e0       	ldi	r19, 0x00	; 0
+ b1e:	31 8f       	std	Z+25, r19	; 0x19
+ b20:	20 8f       	std	Z+24, r18	; 0x18
+ b22:	20 e8       	ldi	r18, 0x80	; 128
+ b24:	30 e0       	ldi	r19, 0x00	; 0
+ b26:	37 8b       	std	Z+23, r19	; 0x17
+ b28:	26 8b       	std	Z+22, r18	; 0x16
+ b2a:	24 e0       	ldi	r18, 0x04	; 4
+ b2c:	22 8f       	std	Z+26, r18	; 0x1a
+ b2e:	23 e0       	ldi	r18, 0x03	; 3
+ b30:	23 8f       	std	Z+27, r18	; 0x1b
+ b32:	27 e0       	ldi	r18, 0x07	; 7
+ b34:	24 8f       	std	Z+28, r18	; 0x1c
+ b36:	25 e0       	ldi	r18, 0x05	; 5
+ b38:	25 8f       	std	Z+29, r18	; 0x1d
+ b3a:	21 e0       	ldi	r18, 0x01	; 1
+ b3c:	26 8f       	std	Z+30, r18	; 0x1e
+ b3e:	ef ec       	ldi	r30, 0xCF	; 207
+ b40:	f1 e0       	ldi	r31, 0x01	; 1
+ b42:	13 82       	std	Z+3, r1	; 0x03
+ b44:	12 82       	std	Z+2, r1	; 0x02
+ b46:	84 83       	std	Z+4, r24	; 0x04
+ b48:	95 83       	std	Z+5, r25	; 0x05
+ b4a:	a6 83       	std	Z+6, r26	; 0x06
+ b4c:	b7 83       	std	Z+7, r27	; 0x07
+ b4e:	84 e1       	ldi	r24, 0x14	; 20
+ b50:	91 e0       	ldi	r25, 0x01	; 1
+ b52:	91 83       	std	Z+1, r25	; 0x01
+ b54:	80 83       	st	Z, r24
+ b56:	8c e9       	ldi	r24, 0x9C	; 156
+ b58:	91 e0       	ldi	r25, 0x01	; 1
+ b5a:	95 87       	std	Z+13, r25	; 0x0d
+ b5c:	84 87       	std	Z+12, r24	; 0x0c
+ b5e:	10 92 dd 01 	sts	0x01DD, r1	; 0x8001dd <Wire>
+ b62:	08 95       	ret
+
+00000b64 <main>:
+main():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/main.cpp:13
+
+#warning "This is the CLOCKWISE pin mapping - make sure you're using the pinout diagram with the pins in clockwise order"
+#endif
+#endif
+int main(void)
+{
+ b64:	cf 93       	push	r28
+ b66:	df 93       	push	r29
+ b68:	00 d0       	rcall	.+0      	; 0xb6a <main+0x6>
+ b6a:	1f 92       	push	r1
+ b6c:	cd b7       	in	r28, 0x3d	; 61
+ b6e:	de b7       	in	r29, 0x3e	; 62
+init():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:482
+}
+
+void init(void)
+{
+  // this needs to be called before setup() or some functions won't work there
+  sei();
+ b70:	78 94       	sei
+Timer0_SetWaveformGenerationMode():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:140
+}
+timer0_wgm_t;
+
+__attribute__((always_inline)) static inline void Timer0_SetWaveformGenerationMode( timer0_wgm_t wgm )
+{
+  TCCR0A = (TCCR0A & ~MASK2(WGM01,WGM00)) | (((wgm & B011) >> 0) << WGM00);
+ b72:	80 b7       	in	r24, 0x30	; 48
+ b74:	83 60       	ori	r24, 0x03	; 3
+ b76:	80 bf       	out	0x30, r24	; 48
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:141
+  TCCR0B = (TCCR0B & ~MASK1(WGM02))       | (((wgm & B100) >> 2) << WGM02);
+ b78:	83 b7       	in	r24, 0x33	; 51
+ b7a:	87 7f       	andi	r24, 0xF7	; 247
+ b7c:	83 bf       	out	0x33, r24	; 51
+Timer0_ClockSelect():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:122
+}
+timer0_cs_t;
+
+__attribute__((always_inline)) static inline void Timer0_ClockSelect( timer0_cs_t cs )
+{
+  TCCR0B = (TCCR0B & ~MASK3(CS02,CS01,CS00)) | (cs << CS00);
+ b7e:	83 b7       	in	r24, 0x33	; 51
+ b80:	88 7f       	andi	r24, 0xF8	; 248
+ b82:	83 60       	ori	r24, 0x03	; 3
+ b84:	83 bf       	out	0x33, r24	; 51
+Timer0_EnableOverflowInterrupt():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:198
+  TIMSK0 |= (1<<OCIE0A);
+}
+
+__attribute__((always_inline)) static inline void Timer0_EnableOverflowInterrupt( void )
+{
+  TIMSK0 |= (1<<TOIE0);
+ b86:	89 b7       	in	r24, 0x39	; 57
+ b88:	81 60       	ori	r24, 0x01	; 1
+ b8a:	89 bf       	out	0x39, r24	; 57
+Timer2_ClockSelect():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:470
+}
+timer2_cs_t;
+
+__attribute__((always_inline)) static inline void Timer2_ClockSelect( timer2_cs_t cs )
+{
+  TCCR2B = (TCCR2B & ~MASK3(CS22,CS21,CS20)) | (cs << CS20);
+ b8c:	80 91 c9 00 	lds	r24, 0x00C9	; 0x8000c9 <__EEPROM_REGION_LENGTH__+0x7f00c9>
+ b90:	88 7f       	andi	r24, 0xF8	; 248
+ b92:	80 93 c9 00 	sts	0x00C9, r24	; 0x8000c9 <__EEPROM_REGION_LENGTH__+0x7f00c9>
+Timer2_SetWaveformGenerationMode():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:496
+}
+timer2_wgm_t;
+
+__attribute__((always_inline)) static inline void Timer2_SetWaveformGenerationMode( timer2_wgm_t wgm )
+{
+  TCCR2A = (TCCR2A & ~MASK2(WGM21,WGM20)) | (((wgm & B0011) >> 0) << WGM20);
+ b96:	80 91 ca 00 	lds	r24, 0x00CA	; 0x8000ca <__EEPROM_REGION_LENGTH__+0x7f00ca>
+ b9a:	8c 7f       	andi	r24, 0xFC	; 252
+ b9c:	81 60       	ori	r24, 0x01	; 1
+ b9e:	80 93 ca 00 	sts	0x00CA, r24	; 0x8000ca <__EEPROM_REGION_LENGTH__+0x7f00ca>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:497
+  TCCR2B = (TCCR2B & ~MASK2(WGM23,WGM22)) | (((wgm & B1100) >> 2) << WGM22);
+ ba2:	80 91 c9 00 	lds	r24, 0x00C9	; 0x8000c9 <__EEPROM_REGION_LENGTH__+0x7f00c9>
+ ba6:	87 7e       	andi	r24, 0xE7	; 231
+ ba8:	80 93 c9 00 	sts	0x00C9, r24	; 0x8000c9 <__EEPROM_REGION_LENGTH__+0x7f00c9>
+Timer2_ClockSelect():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:470
+}
+timer2_cs_t;
+
+__attribute__((always_inline)) static inline void Timer2_ClockSelect( timer2_cs_t cs )
+{
+  TCCR2B = (TCCR2B & ~MASK3(CS22,CS21,CS20)) | (cs << CS20);
+ bac:	80 91 c9 00 	lds	r24, 0x00C9	; 0x8000c9 <__EEPROM_REGION_LENGTH__+0x7f00c9>
+ bb0:	88 7f       	andi	r24, 0xF8	; 248
+ bb2:	83 60       	ori	r24, 0x03	; 3
+ bb4:	80 93 c9 00 	sts	0x00C9, r24	; 0x8000c9 <__EEPROM_REGION_LENGTH__+0x7f00c9>
+Timer1_ClockSelect():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:282
+}
+timer1_cs_t;
+
+__attribute__((always_inline)) static inline void Timer1_ClockSelect( timer1_cs_t cs )
+{
+  TCCR1B = (TCCR1B & ~MASK3(CS12,CS11,CS10)) | (cs << CS10);
+ bb8:	8e b5       	in	r24, 0x2e	; 46
+ bba:	88 7f       	andi	r24, 0xF8	; 248
+ bbc:	8e bd       	out	0x2e, r24	; 46
+Timer1_SetWaveformGenerationMode():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:308
+}
+timer1_wgm_t;
+
+__attribute__((always_inline)) static inline void Timer1_SetWaveformGenerationMode( timer1_wgm_t wgm )
+{
+  TCCR1A = (TCCR1A & ~MASK2(WGM11,WGM10)) | (((wgm & B0011) >> 0) << WGM10);
+ bbe:	8f b5       	in	r24, 0x2f	; 47
+ bc0:	8c 7f       	andi	r24, 0xFC	; 252
+ bc2:	81 60       	ori	r24, 0x01	; 1
+ bc4:	8f bd       	out	0x2f, r24	; 47
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:309
+  TCCR1B = (TCCR1B & ~MASK2(WGM13,WGM12)) | (((wgm & B1100) >> 2) << WGM12);
+ bc6:	8e b5       	in	r24, 0x2e	; 46
+ bc8:	87 7e       	andi	r24, 0xE7	; 231
+ bca:	8e bd       	out	0x2e, r24	; 46
+Timer1_ClockSelect():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_timers.h:282
+}
+timer1_cs_t;
+
+__attribute__((always_inline)) static inline void Timer1_ClockSelect( timer1_cs_t cs )
+{
+  TCCR1B = (TCCR1B & ~MASK3(CS12,CS11,CS10)) | (cs << CS10);
+ bcc:	8e b5       	in	r24, 0x2e	; 46
+ bce:	88 7f       	andi	r24, 0xF8	; 248
+ bd0:	83 60       	ori	r24, 0x03	; 3
+ bd2:	8e bd       	out	0x2e, r24	; 46
+initTimer841():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:461
+  Timer1_SetWaveformGenerationMode(1);
+  Timer1_ClockSelect(3);
+
+  #endif
+
+  TOCPMSA0=0b00010000;
+ bd4:	80 e1       	ldi	r24, 0x10	; 16
+ bd6:	80 93 67 00 	sts	0x0067, r24	; 0x800067 <__EEPROM_REGION_LENGTH__+0x7f0067>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:462
+  TOCPMSA1=0b10100100;
+ bda:	84 ea       	ldi	r24, 0xA4	; 164
+ bdc:	80 93 68 00 	sts	0x0068, r24	; 0x800068 <__EEPROM_REGION_LENGTH__+0x7f0068>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/wiring.c:463
+  TOCPMCOE=0b11111100;
+ be0:	8c ef       	ldi	r24, 0xFC	; 252
+ be2:	80 93 66 00 	sts	0x0066, r24	; 0x800066 <__EEPROM_REGION_LENGTH__+0x7f0066>
+ADC_PrescalerSelect():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_adc.h:89
+}
+adc_ps_t;
+
+__attribute__((always_inline)) static inline void ADC_PrescalerSelect( adc_ps_t ps )
+{
+  ADCSRA = (ADCSRA & ~MASK3(ADPS2,ADPS1,ADPS0)) | (ps << ADPS0);
+ be6:	85 b1       	in	r24, 0x05	; 5
+ be8:	88 7f       	andi	r24, 0xF8	; 248
+ bea:	86 60       	ori	r24, 0x06	; 6
+ bec:	85 b9       	out	0x05, r24	; 5
+ADC_Enable():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/core_adc.h:94
+}
+
+__attribute__((always_inline)) static inline void ADC_Enable( void )
+{
+  ADCSRA |= MASK1( ADEN );
+ bee:	2f 9a       	sbi	0x05, 7	; 5
+setup():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:165
+
+void setup()
+{
+  // Digital outputs
+  pinMode(ON_OFF, OUTPUT);
+ bf0:	61 e0       	ldi	r22, 0x01	; 1
+ bf2:	80 e0       	ldi	r24, 0x00	; 0
+ bf4:	be da       	rcall	.-2692   	; 0x172 <pinMode>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:166
+  digitalWrite(ON_OFF, ON_OFF__OFF); // Disable the 9603N until PGOOD has gone high
+ bf6:	60 e0       	ldi	r22, 0x00	; 0
+ bf8:	80 e0       	ldi	r24, 0x00	; 0
+ bfa:	88 da       	rcall	.-2800   	; 0x10c <digitalWrite>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:167
+  pinMode(PWR_EN, OUTPUT);
+ bfc:	61 e0       	ldi	r22, 0x01	; 1
+ bfe:	83 e0       	ldi	r24, 0x03	; 3
+ c00:	b8 da       	rcall	.-2704   	; 0x172 <pinMode>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:168
+  digitalWrite(PWR_EN, PWR_EN__OFF); // Disable power to the 9603N until PGOOD has gone high
+ c02:	60 e0       	ldi	r22, 0x00	; 0
+ c04:	83 e0       	ldi	r24, 0x03	; 3
+ c06:	82 da       	rcall	.-2812   	; 0x10c <digitalWrite>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:169
+  pinMode(SHDN, OUTPUT);
+ c08:	61 e0       	ldi	r22, 0x01	; 1
+ c0a:	8a e0       	ldi	r24, 0x0A	; 10
+ c0c:	b2 da       	rcall	.-2716   	; 0x172 <pinMode>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:170
+  digitalWrite(SHDN, SHDN__OFF); // Disable the LTC3225 supercapacitor charger
+ c0e:	60 e0       	ldi	r22, 0x00	; 0
+ c10:	8a e0       	ldi	r24, 0x0A	; 10
+ c12:	7c da       	rcall	.-2824   	; 0x10c <digitalWrite>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:173
+
+  // Initialize the IO_REGISTER
+  IO_REGISTER = 0; // Clear the IO register
+ c14:	10 92 26 01 	sts	0x0126, r1	; 0x800126 <IO_REGISTER>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:176
+
+  // Digital inputs
+  pinMode(PGOOD, INPUT); // Has its own pullup
+ c18:	60 e0       	ldi	r22, 0x00	; 0
+ c1a:	88 e0       	ldi	r24, 0x08	; 8
+ c1c:	aa da       	rcall	.-2732   	; 0x172 <pinMode>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:177
+  pinMode(NA, INPUT);
+ c1e:	60 e0       	ldi	r22, 0x00	; 0
+ c20:	87 e0       	ldi	r24, 0x07	; 7
+ c22:	a7 da       	rcall	.-2738   	; 0x172 <pinMode>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:178
+  pinMode(RI, INPUT);
+ c24:	60 e0       	ldi	r22, 0x00	; 0
+ c26:	89 e0       	ldi	r24, 0x09	; 9
+ c28:	a4 da       	rcall	.-2744   	; 0x172 <pinMode>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:181
+
+  // Serial pins for software serial
+  pinMode(TXPIN, OUTPUT); // Tx pin
+ c2a:	61 e0       	ldi	r22, 0x01	; 1
+ c2c:	81 e0       	ldi	r24, 0x01	; 1
+ c2e:	a1 da       	rcall	.-2750   	; 0x172 <pinMode>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:182
+  pinMode(RXPIN, INPUT); // Rx pin
+ c30:	60 e0       	ldi	r22, 0x00	; 0
+ c32:	82 e0       	ldi	r24, 0x02	; 2
+ c34:	9e da       	rcall	.-2756   	; 0x172 <pinMode>
+attachInterrupt():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/WInterrupts.c:60
+      If attachInterrupt is called in succession for the same
+      interruptNum but a different userFunc then the following line
+      is not safe.  Changing intFunc is not atomic.
+    intFunc[interruptNum] = userFunc;
+    */
+    MAKE_ATOMIC( intFunc[interruptNum] = userFunc; )
+ c36:	8f b7       	in	r24, 0x3f	; 63
+ c38:	f8 94       	cli
+ c3a:	28 ef       	ldi	r18, 0xF8	; 248
+ c3c:	30 e0       	ldi	r19, 0x00	; 0
+ c3e:	30 93 25 01 	sts	0x0125, r19	; 0x800125 <intFunc+0x1>
+ c42:	20 93 24 01 	sts	0x0124, r18	; 0x800124 <intFunc>
+ c46:	8f bf       	out	0x3f, r24	; 63
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/WInterrupts.c:73
+
+    switch ( interruptNum )
+    {
+      #if NUMBER_EXTERNAL_INTERRUPTS >= 1
+        case EXTERNAL_INTERRUPT_0:
+          EICRA = (EICRA & ~((1 << ISC00) | (1 << ISC01))) | (mode << ISC00);
+ c48:	85 b7       	in	r24, 0x35	; 53
+ c4a:	8c 7f       	andi	r24, 0xFC	; 252
+ c4c:	82 60       	ori	r24, 0x02	; 2
+ c4e:	85 bf       	out	0x35, r24	; 53
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/WInterrupts.c:74
+          EIMSK |= (1 << INT0);
+ c50:	8b b7       	in	r24, 0x3b	; 59
+ c52:	80 64       	ori	r24, 0x40	; 64
+ c54:	8b bf       	out	0x3b, r24	; 59
+begin():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:207
+    use_u2x = false;
+  }
+#endif
+*/
+  if (use_u2x) {
+    *_ucsra = 1 << _u2x;
+ c56:	e0 91 8f 01 	lds	r30, 0x018F	; 0x80018f <Serial+0x12>
+ c5a:	f0 91 90 01 	lds	r31, 0x0190	; 0x800190 <Serial+0x13>
+ c5e:	20 91 9b 01 	lds	r18, 0x019B	; 0x80019b <Serial+0x1e>
+ c62:	81 e0       	ldi	r24, 0x01	; 1
+ c64:	90 e0       	ldi	r25, 0x00	; 0
+ c66:	ac 01       	movw	r20, r24
+ c68:	02 c0       	rjmp	.+4      	; 0xc6e <main+0x10a>
+ c6a:	44 0f       	add	r20, r20
+ c6c:	55 1f       	adc	r21, r21
+ c6e:	2a 95       	dec	r18
+ c70:	e2 f7       	brpl	.-8      	; 0xc6a <main+0x106>
+ c72:	40 83       	st	Z, r20
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:215
+    *_ucsra = 0;
+    baud_setting = (F_CPU / 8 / baud - 1) / 2;
+  }
+
+  // assign the baud_setting, a.k.a. ubbr (USART Baud Rate Register)
+  *_ubrrh = baud_setting >> 8;
+ c74:	e0 91 8b 01 	lds	r30, 0x018B	; 0x80018b <Serial+0xe>
+ c78:	f0 91 8c 01 	lds	r31, 0x018C	; 0x80018c <Serial+0xf>
+ c7c:	10 82       	st	Z, r1
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:216
+  *_ubrrl = baud_setting;
+ c7e:	e0 91 8d 01 	lds	r30, 0x018D	; 0x80018d <Serial+0x10>
+ c82:	f0 91 8e 01 	lds	r31, 0x018E	; 0x80018e <Serial+0x11>
+ c86:	23 e3       	ldi	r18, 0x33	; 51
+ c88:	20 83       	st	Z, r18
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:218
+
+  *_ucsrc = config;
+ c8a:	e0 91 95 01 	lds	r30, 0x0195	; 0x800195 <Serial+0x18>
+ c8e:	f0 91 96 01 	lds	r31, 0x0196	; 0x800196 <Serial+0x19>
+ c92:	26 e0       	ldi	r18, 0x06	; 6
+ c94:	20 83       	st	Z, r18
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:219
+  sbi(*_ucsrb, _rxen);
+ c96:	e0 91 91 01 	lds	r30, 0x0191	; 0x800191 <Serial+0x14>
+ c9a:	f0 91 92 01 	lds	r31, 0x0192	; 0x800192 <Serial+0x15>
+ c9e:	20 81       	ld	r18, Z
+ ca0:	30 91 97 01 	lds	r19, 0x0197	; 0x800197 <Serial+0x1a>
+ ca4:	ac 01       	movw	r20, r24
+ ca6:	01 c0       	rjmp	.+2      	; 0xcaa <main+0x146>
+ ca8:	44 0f       	add	r20, r20
+ caa:	3a 95       	dec	r19
+ cac:	ea f7       	brpl	.-6      	; 0xca8 <main+0x144>
+ cae:	24 2b       	or	r18, r20
+ cb0:	20 83       	st	Z, r18
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:220
+  sbi(*_ucsrb, _txen);
+ cb2:	e0 91 91 01 	lds	r30, 0x0191	; 0x800191 <Serial+0x14>
+ cb6:	f0 91 92 01 	lds	r31, 0x0192	; 0x800192 <Serial+0x15>
+ cba:	20 81       	ld	r18, Z
+ cbc:	30 91 98 01 	lds	r19, 0x0198	; 0x800198 <Serial+0x1b>
+ cc0:	ac 01       	movw	r20, r24
+ cc2:	01 c0       	rjmp	.+2      	; 0xcc6 <main+0x162>
+ cc4:	44 0f       	add	r20, r20
+ cc6:	3a 95       	dec	r19
+ cc8:	ea f7       	brpl	.-6      	; 0xcc4 <main+0x160>
+ cca:	24 2b       	or	r18, r20
+ ccc:	20 83       	st	Z, r18
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tinymodern/HardwareSerial.cpp:221
+  sbi(*_ucsrb, _rxcie);
+ cce:	e0 91 91 01 	lds	r30, 0x0191	; 0x800191 <Serial+0x14>
+ cd2:	f0 91 92 01 	lds	r31, 0x0192	; 0x800192 <Serial+0x15>
+ cd6:	20 81       	ld	r18, Z
+ cd8:	30 91 99 01 	lds	r19, 0x0199	; 0x800199 <Serial+0x1c>
+ cdc:	01 c0       	rjmp	.+2      	; 0xce0 <main+0x17c>
+ cde:	88 0f       	add	r24, r24
+ ce0:	3a 95       	dec	r19
+ ce2:	ea f7       	brpl	.-6      	; 0xcde <main+0x17a>
+ ce4:	82 2b       	or	r24, r18
+ ce6:	80 83       	st	Z, r24
+ ce8:	e0 91 db 01 	lds	r30, 0x01DB	; 0x8001db <TinyWireS+0xc>
+ cec:	f0 91 dc 01 	lds	r31, 0x01DC	; 0x8001dc <TinyWireS+0xd>
+begin_():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:59
+
+i2c_tinyS::~i2c_tinyS() {}
+
+void i2c_tinyS::begin_(struct i2cStruct* i2c, uint8_t address, uint8_t mask) {
+    I2C_INTR_FLAG_INIT;
+    TWSA = (address << 1);
+ cf0:	86 ec       	ldi	r24, 0xC6	; 198
+ cf2:	80 93 a2 00 	sts	0x00A2, r24	; 0x8000a2 <__EEPROM_REGION_LENGTH__+0x7f00a2>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:60
+    TWSAM = mask;
+ cf6:	10 92 a1 00 	sts	0x00A1, r1	; 0x8000a1 <__EEPROM_REGION_LENGTH__+0x7f00a1>
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:61
+    i2c->startCount = -1;
+ cfa:	8f ef       	ldi	r24, 0xFF	; 255
+ cfc:	80 a7       	std	Z+40, r24	; 0x28
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.cpp:62
+    TWSCRA = (_BV(TWSHE) | _BV(TWDIE) | _BV(TWASIE) | _BV(TWEN) | _BV(TWSIE));
+ cfe:	8c eb       	ldi	r24, 0xBC	; 188
+ d00:	80 93 a5 00 	sts	0x00A5, r24	; 0x8000a5 <__EEPROM_REGION_LENGTH__+0x7f00a5>
+begin():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/Wire.cpp:661
+
+
+#ifndef WIRE_MASTER_ONLY
+void TwoWire::begin(uint8_t address) {
+  TinyWireS.begin(address, 0);
+  slaveMode = true;
+ d04:	81 e0       	ldi	r24, 0x01	; 1
+ d06:	80 93 dd 01 	sts	0x01DD, r24	; 0x8001dd <Wire>
+_ZN9i2c_tinyS9onReceiveEPFvjE():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.h:114
+        inline uint8_t peekByte(void) { return peekByte_(i2c); }
+        inline void flush(void) {}
+        inline uint16_t getRxAddr(void) { return i2c->Addr; }
+        inline size_t getTransmitBytes(void) { return i2c->txBufferIndex; }
+        inline void onAddrReceive(boolean (*function)(uint16_t, uint8_t)) { i2c->user_onAddrReceive = function; }
+        inline void onReceive(void (*function)(size_t)) { i2c->user_onReceive = function; }
+ d0a:	8c e0       	ldi	r24, 0x0C	; 12
+ d0c:	93 e0       	ldi	r25, 0x03	; 3
+ d0e:	96 a7       	std	Z+46, r25	; 0x2e
+ d10:	85 a7       	std	Z+45, r24	; 0x2d
+_ZN9i2c_tinyS9onRequestEPFvvE():
+C:\Users\pclark\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\libraries\Wire\src/WireS.h:115
+        inline void onRequest(void (*function)(void)) { i2c->user_onRequest = function; }
+ d12:	80 e2       	ldi	r24, 0x20	; 32
+ d14:	92 e0       	ldi	r25, 0x02	; 2
+ d16:	90 ab       	std	Z+48, r25	; 0x30
+ d18:	87 a7       	std	Z+47, r24	; 0x2f
+setup():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:194
+
+  //Begin listening on I2C
+  startI2C();
+
+  //Initialise last_activity
+  last_activity = millis();
+ d1a:	5e da       	rcall	.-2884   	; 0x1d8 <millis>
+ d1c:	60 93 27 01 	sts	0x0127, r22	; 0x800127 <last_activity>
+ d20:	70 93 28 01 	sts	0x0128, r23	; 0x800128 <last_activity+0x1>
+ d24:	80 93 29 01 	sts	0x0129, r24	; 0x800129 <last_activity+0x2>
+ d28:	90 93 2a 01 	sts	0x012A, r25	; 0x80012a <last_activity+0x3>
+goToSleep():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:248
+    // (Leave TWI, USART0 and Timer0 enabled)
+    PRR |= _BV(PRADC) | _BV(PRUSART1) | _BV(PRSPI) | _BV(PRTIM1) | _BV(PRTIM2); 
+    
+    byte mcucr = MCUCR; // Save the MCU Control Register
+    // Set Sleep Enable (SE=1), Power-down Sleep Mode (SM1=1, SM0=0), INT0 Falling Edge (ISC01=1, ISC00=0)
+    MCUCR = _BV(SE) | _BV(SM1) | _BV(ISC01);
+ d2c:	12 e3       	ldi	r17, 0x32	; 50
+loop():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:199
+  last_activity = millis();
+}
+
+void loop()
+{
+  if (LOW_POWER_MODE) // Is low power mode enabled?
+ d2e:	80 91 2b 01 	lds	r24, 0x012B	; 0x80012b <LOW_POWER_MODE>
+ d32:	88 23       	and	r24, r24
+ d34:	a9 f1       	breq	.+106    	; 0xda0 <main+0x23c>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:202
+  {
+    // If low power mode is enabled, put the 841 into power-down mode after sleep_after millis of inactivity
+    if (millis() > (last_activity + sleep_after)) // Have we reached the inactivity limit?
+ d36:	50 da       	rcall	.-2912   	; 0x1d8 <millis>
+ d38:	ab 01       	movw	r20, r22
+ d3a:	bc 01       	movw	r22, r24
+ d3c:	80 91 27 01 	lds	r24, 0x0127	; 0x800127 <last_activity>
+ d40:	90 91 28 01 	lds	r25, 0x0128	; 0x800128 <last_activity+0x1>
+ d44:	a0 91 29 01 	lds	r26, 0x0129	; 0x800129 <last_activity+0x2>
+ d48:	b0 91 2a 01 	lds	r27, 0x012A	; 0x80012a <last_activity+0x3>
+ d4c:	88 51       	subi	r24, 0x18	; 24
+ d4e:	9c 4f       	sbci	r25, 0xFC	; 252
+ d50:	af 4f       	sbci	r26, 0xFF	; 255
+ d52:	bf 4f       	sbci	r27, 0xFF	; 255
+ d54:	84 17       	cp	r24, r20
+ d56:	95 07       	cpc	r25, r21
+ d58:	a6 07       	cpc	r26, r22
+ d5a:	b7 07       	cpc	r27, r23
+ d5c:	08 f5       	brcc	.+66     	; 0xda0 <main+0x23c>
+goToSleep():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:230
+//Hardwired for the ATtiny441/841 (may not work on other ATtiny's)
+//Brown Out Detection is disabled via the fuse bits:
+//Set BOD Mode (Active) and (Sleep) to BOD Disabled in the board settings.
+void goToSleep(void)
+{
+    byte adcsra = ADCSRA; //save ADCSRA (ADC control and status register A)
+ d5e:	95 b1       	in	r25, 0x05	; 5
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:231
+    ADCSRA &= ~_BV(ADEN); //disable ADC by clearing the ADEN bit
+ d60:	2f 98       	cbi	0x05, 7	; 5
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:233
+    
+    byte acsr0a = ACSR0A; //save ACSR0A (Analog Comparator 0 control and status register)
+ d62:	2a b1       	in	r18, 0x0a	; 10
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:234
+    ACSR0A &= ~_BV(ACIE0); //disable AC0 interrupt
+ d64:	53 98       	cbi	0x0a, 3	; 10
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:235
+    ACSR0A |= _BV(ACD0); //disable ACO by setting the ACD0 bit
+ d66:	57 9a       	sbi	0x0a, 7	; 10
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:237
+    
+    byte acsr1a = ACSR1A; //save ACSR1A (Analog Comparator 1 control and status register)
+ d68:	3c b1       	in	r19, 0x0c	; 12
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:238
+    ACSR1A &= ~_BV(ACIE1); //disable AC1 interrupt
+ d6a:	63 98       	cbi	0x0c, 3	; 12
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:239
+    ACSR1A |= _BV(ACD1); //disable AC1 by setting the ACD1 bit
+ d6c:	67 9a       	sbi	0x0c, 7	; 12
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:241
+    
+    byte prr = PRR; // Save the power reduction register
+ d6e:	40 91 70 00 	lds	r20, 0x0070	; 0x800070 <__EEPROM_REGION_LENGTH__+0x7f0070>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:244
+    // Disable the ADC, USART1, SPI, Timer1 and Timer2
+    // (Leave TWI, USART0 and Timer0 enabled)
+    PRR |= _BV(PRADC) | _BV(PRUSART1) | _BV(PRSPI) | _BV(PRTIM1) | _BV(PRTIM2); 
+ d72:	80 91 70 00 	lds	r24, 0x0070	; 0x800070 <__EEPROM_REGION_LENGTH__+0x7f0070>
+ d76:	8d 65       	ori	r24, 0x5D	; 93
+ d78:	80 93 70 00 	sts	0x0070, r24	; 0x800070 <__EEPROM_REGION_LENGTH__+0x7f0070>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:246
+    
+    byte mcucr = MCUCR; // Save the MCU Control Register
+ d7c:	85 b7       	in	r24, 0x35	; 53
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:248
+    // Set Sleep Enable (SE=1), Power-down Sleep Mode (SM1=1, SM0=0), INT0 Falling Edge (ISC01=1, ISC00=0)
+    MCUCR = _BV(SE) | _BV(SM1) | _BV(ISC01);
+ d7e:	15 bf       	out	0x35, r17	; 53
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:250
+
+    sleep_cpu(); //go to sleep
+ d80:	88 95       	sleep
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:252
+    
+    MCUCR = mcucr; // Restore the MCU control register
+ d82:	85 bf       	out	0x35, r24	; 53
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:253
+    PRR = prr; // Restore the power reduction register
+ d84:	40 93 70 00 	sts	0x0070, r20	; 0x800070 <__EEPROM_REGION_LENGTH__+0x7f0070>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:254
+    ACSR1A = acsr1a; // Restore ACSR1A    
+ d88:	3c b9       	out	0x0c, r19	; 12
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:255
+    ACSR0A = acsr0a; // Restore ACSR0A    
+ d8a:	2a b9       	out	0x0a, r18	; 10
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:256
+    ADCSRA = adcsra; //Restore ADCSRA
+ d8c:	95 b9       	out	0x05, r25	; 5
+loop():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:206
+    // If low power mode is enabled, put the 841 into power-down mode after sleep_after millis of inactivity
+    if (millis() > (last_activity + sleep_after)) // Have we reached the inactivity limit?
+    {
+      goToSleep(); // Put the 841 into power-down mode
+      // ZZZzzz...
+      last_activity = millis(); // After waking, update last_activity so we stay awake for at least sleep_after millis
+ d8e:	24 da       	rcall	.-3000   	; 0x1d8 <millis>
+ d90:	60 93 27 01 	sts	0x0127, r22	; 0x800127 <last_activity>
+ d94:	70 93 28 01 	sts	0x0128, r23	; 0x800128 <last_activity+0x1>
+ d98:	80 93 29 01 	sts	0x0129, r24	; 0x800129 <last_activity+0x2>
+ d9c:	90 93 2a 01 	sts	0x012A, r25	; 0x80012a <last_activity+0x3>
+noIntDelay():
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:262
+}
+
+//Software delay. Does not rely on internal timers.
+void noIntDelay(byte amount)
+{
+  for (volatile byte y = 0 ; y < amount ; y++)
+ da0:	1b 82       	std	Y+3, r1	; 0x03
+ da2:	8b 81       	ldd	r24, Y+3	; 0x03
+ da4:	81 11       	cpse	r24, r1
+ da6:	c3 cf       	rjmp	.-122    	; 0xd2e <main+0x1ca>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:265
+  {
+    //ATtiny84 at 8MHz
+    for (volatile unsigned int x = 0 ; x < 350 ; x++) //1ms at 8MHz
+ da8:	1a 82       	std	Y+2, r1	; 0x02
+ daa:	19 82       	std	Y+1, r1	; 0x01
+ dac:	89 81       	ldd	r24, Y+1	; 0x01
+ dae:	9a 81       	ldd	r25, Y+2	; 0x02
+ db0:	8e 35       	cpi	r24, 0x5E	; 94
+ db2:	91 40       	sbci	r25, 0x01	; 1
+ db4:	38 f4       	brcc	.+14     	; 0xdc4 <main+0x260>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:267
+    {
+      __asm__("nop\n\t");
+ db6:	00 00       	nop
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:265
+void noIntDelay(byte amount)
+{
+  for (volatile byte y = 0 ; y < amount ; y++)
+  {
+    //ATtiny84 at 8MHz
+    for (volatile unsigned int x = 0 ; x < 350 ; x++) //1ms at 8MHz
+ db8:	89 81       	ldd	r24, Y+1	; 0x01
+ dba:	9a 81       	ldd	r25, Y+2	; 0x02
+ dbc:	01 96       	adiw	r24, 0x01	; 1
+ dbe:	9a 83       	std	Y+2, r25	; 0x02
+ dc0:	89 83       	std	Y+1, r24	; 0x01
+ dc2:	f4 cf       	rjmp	.-24     	; 0xdac <main+0x248>
+\\thunderbird\home\pclark\Documents\Arduino\Qwiic_Iridium_9603N_ATtiny841/Qwiic_Iridium_9603N_ATtiny841.ino:262
+}
+
+//Software delay. Does not rely on internal timers.
+void noIntDelay(byte amount)
+{
+  for (volatile byte y = 0 ; y < amount ; y++)
+ dc4:	8b 81       	ldd	r24, Y+3	; 0x03
+ dc6:	8f 5f       	subi	r24, 0xFF	; 255
+ dc8:	8b 83       	std	Y+3, r24	; 0x03
+ dca:	eb cf       	rjmp	.-42     	; 0xda2 <main+0x23e>
+
+00000dcc <__tablejump2__>:
+__tablejump2__():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2296
+ dcc:	ee 0f       	add	r30, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2297
+ dce:	ff 1f       	adc	r31, r31
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2328
+ dd0:	05 90       	lpm	r0, Z+
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2329
+ dd2:	f4 91       	lpm	r31, Z
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2330
+ dd4:	e0 2d       	mov	r30, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2331
+ dd6:	09 94       	ijmp
+
+00000dd8 <_exit>:
+exit():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+ dd8:	f8 94       	cli
+
+00000dda <__stop_program>:
+__stop_program():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+ dda:	ff cf       	rjmp	.-2      	; 0xdda <__stop_program>
